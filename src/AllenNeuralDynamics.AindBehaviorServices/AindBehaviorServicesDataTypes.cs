@@ -205,7 +205,7 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
         /// The timestamp of the event
         /// </summary>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        [Newtonsoft.Json.JsonPropertyAttribute("timestamp", Required=Newtonsoft.Json.Required.Always)]
+        [Newtonsoft.Json.JsonPropertyAttribute("timestamp")]
         [System.ComponentModel.DescriptionAttribute("The timestamp of the event")]
         public double? Timestamp
         {
@@ -277,7 +277,7 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
         /// The data of the event
         /// </summary>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        [Newtonsoft.Json.JsonPropertyAttribute("data", Required=Newtonsoft.Json.Required.Always)]
+        [Newtonsoft.Json.JsonPropertyAttribute("data")]
         [System.ComponentModel.DescriptionAttribute("The data of the event")]
         public object Data
         {
