@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkflowBuilder Version="2.8.2"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:io="clr-namespace:Bonsai.IO;assembly=Bonsai.System"
+                 xmlns:p1="clr-namespace:AllenNeuralDynamics.AindManipulator;assembly=AllenNeuralDynamics.AindManipulator"
+                 xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
+                 xmlns="https://bonsai-rx.org/2018/workflow">
+  <Workflow>
+    <Nodes>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="io:ReadAllText" />
+      </Expression>
+      <Expression xsi:type="p1:DeserializeFromJson">
+        <p1:Type xsi:type="TypeMapping" TypeArguments="p1:CalibrationRig" />
+      </Expression>
+      <Expression xsi:type="MemberSelector">
+        <Selector>Manipulator</Selector>
+      </Expression>
+      <Expression xsi:type="MemberSelector">
+        <Selector>Calibration.Input</Selector>
+      </Expression>
+      <Expression xsi:type="rx:AsyncSubject">
+        <Name>ManipulatorSettings</Name>
+      </Expression>
+      <Expression xsi:type="SubscribeSubject">
+        <Name>ManipulatorSettings</Name>
+      </Expression>
+      <Expression xsi:type="IncludeWorkflow" Path="AllenNeuralDynamics.AindManipulator:AindManipulator.bonsai">
+        <OperationMode>Active</OperationMode>
+        <OperationLed>On</OperationLed>
+        <DumpRegisters>false</DumpRegisters>
+        <VisualIndicators>On</VisualIndicators>
+        <Heartbeat>Enabled</Heartbeat>
+        <IgnoreErrors>false</IgnoreErrors>
+        <PortName>COMx</PortName>
+      </Expression>
+    </Nodes>
+    <Edges>
+      <Edge From="0" To="1" Label="Source1" />
+      <Edge From="1" To="2" Label="Source1" />
+      <Edge From="2" To="3" Label="Source1" />
+      <Edge From="3" To="4" Label="Source1" />
+      <Edge From="5" To="6" Label="Source1" />
+    </Edges>
+  </Workflow>
+</WorkflowBuilder>

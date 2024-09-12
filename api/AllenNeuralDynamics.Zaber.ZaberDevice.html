@@ -1,0 +1,888 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ZaberDevice </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ZaberDevice ">
+      
+      <meta name="description" content="Represents an Zaber manipulator communicating with the host computer using the Zaber.Motion SDK.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/new/main/docs/apidoc/new?filename=AllenNeuralDynamics_Zaber_ZaberDevice.md&amp;value=---%0Auid%3A%20AllenNeuralDynamics.Zaber.ZaberDevice%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AllenNeuralDynamics.Zaber.ZaberDevice">
+
+
+
+  <h1 id="AllenNeuralDynamics_Zaber_ZaberDevice" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice" class="text-break">
+Class ZaberDevice  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AllenNeuralDynamics.html">AllenNeuralDynamics</a>.<a class="xref" href="AllenNeuralDynamics.Zaber.html">Zaber</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>AllenNeuralDynamics.Zaber.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents an Zaber manipulator communicating with the host computer using the Zaber.Motion SDK.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class ZaberDevice : IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ZaberDevice</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice__ctor_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.#ctor*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice__ctor_System_String_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.#ctor(System.String)">
+  ZaberDevice(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="AllenNeuralDynamics.Zaber.ZaberDevice.html">ZaberDevice</a> class using the
+specified port name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ZaberDevice(string portName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>portName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The port to use (for example, COM1).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice_IsOpen_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.IsOpen*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice_IsOpen" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.IsOpen">
+  IsOpen
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOpen { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice_Close_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.Close*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice_Close" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.Close">
+  Close()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Closes the port connection, sets the <a class="xref" href="AllenNeuralDynamics.Zaber.ZaberDevice.html#AllenNeuralDynamics_Zaber_ZaberDevice_IsOpen">IsOpen</a>
+property to <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> and disposes of the
+internal <span class="xref">Zaber.Motion.Ascii.Connection</span> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Close()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice_GenericCommand_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.GenericCommand*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice_GenericCommand_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.GenericCommand(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+  GenericCommand(int?, int?, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Response&gt; GenericCommand(int? deviceIndex, int? axis, string command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>axis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>command</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Response</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice_GenericCommandMultiResponse_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.GenericCommandMultiResponse*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice_GenericCommandMultiResponse_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.GenericCommandMultiResponse(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+  GenericCommandMultiResponse(int?, int?, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Response[]&gt; GenericCommandMultiResponse(int? deviceIndex, int? axis, string command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>axis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>command</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">Response</span>[]&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice_GenericCommandNoResponse_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.GenericCommandNoResponse*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice_GenericCommandNoResponse_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.GenericCommandNoResponse(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+  GenericCommandNoResponse(int?, int?, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GenericCommandNoResponse(int? deviceIndex, int? axis, string command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>axis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>command</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice_GetPosition_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.GetPosition*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice_GetPosition_System_Nullable_System_Int32__System_Int32_Zaber_Motion_Units_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.GetPosition(System.Nullable{System.Int32},System.Int32,Zaber.Motion.Units)">
+  GetPosition(int?, int, Units)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;double&gt; GetPosition(int? deviceIndex, int axis, Units unit)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>axis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>unit</code> <span class="xref">Units</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice_GetSetting_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.GetSetting*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice_GetSetting_System_Nullable_System_Int32__System_Int32_System_String_Zaber_Motion_Units_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.GetSetting(System.Nullable{System.Int32},System.Int32,System.String,Zaber.Motion.Units)">
+  GetSetting(int?, int, string, Units)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;double&gt; GetSetting(int? deviceIndex, int axis, string setting, Units unit)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>axis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>setting</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>unit</code> <span class="xref">Units</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice_Home_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.Home*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice_Home_System_Nullable_System_Int32__System_Nullable_System_Int32__" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.Home(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+  Home(int?, int?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Home(int? deviceIndex, int? axis)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>axis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice_IsBusy_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.IsBusy*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice_IsBusy_System_Nullable_System_Int32__System_Nullable_System_Int32__" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.IsBusy(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+  IsBusy(int?, int?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; IsBusy(int? deviceIndex, int? axis)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>axis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice_MoveAbsolute_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.MoveAbsolute*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice_MoveAbsolute_System_Nullable_System_Int32__System_Int32_System_Double_System_Double_System_Double_Zaber_Motion_Units_Zaber_Motion_Units_Zaber_Motion_Units_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.MoveAbsolute(System.Nullable{System.Int32},System.Int32,System.Double,System.Double,System.Double,Zaber.Motion.Units,Zaber.Motion.Units,Zaber.Motion.Units)">
+  MoveAbsolute(int?, int, double, double, double, Units, Units, Units)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveAbsolute(int? deviceIndex, int axis, double position, double velocity, double acceleration, Units unit, Units velocityUnit, Units accelerationUnit)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>axis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>velocity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>acceleration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>unit</code> <span class="xref">Units</span></dt>
+    <dd></dd>
+    <dt><code>velocityUnit</code> <span class="xref">Units</span></dt>
+    <dd></dd>
+    <dt><code>accelerationUnit</code> <span class="xref">Units</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice_MoveRelative_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.MoveRelative*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice_MoveRelative_System_Nullable_System_Int32__System_Int32_System_Double_System_Double_System_Double_Zaber_Motion_Units_Zaber_Motion_Units_Zaber_Motion_Units_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.MoveRelative(System.Nullable{System.Int32},System.Int32,System.Double,System.Double,System.Double,Zaber.Motion.Units,Zaber.Motion.Units,Zaber.Motion.Units)">
+  MoveRelative(int?, int, double, double, double, Units, Units, Units)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveRelative(int? deviceIndex, int axis, double position, double velocity, double acceleration, Units unit, Units velocityUnit, Units accelerationUnit)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>axis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>position</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>velocity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>acceleration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>unit</code> <span class="xref">Units</span></dt>
+    <dd></dd>
+    <dt><code>velocityUnit</code> <span class="xref">Units</span></dt>
+    <dd></dd>
+    <dt><code>accelerationUnit</code> <span class="xref">Units</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice_MoveVelocity_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.MoveVelocity*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice_MoveVelocity_System_Nullable_System_Int32__System_Int32_System_Double_System_Double_Zaber_Motion_Units_Zaber_Motion_Units_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.MoveVelocity(System.Nullable{System.Int32},System.Int32,System.Double,System.Double,Zaber.Motion.Units,Zaber.Motion.Units)">
+  MoveVelocity(int?, int, double, double, Units, Units)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveVelocity(int? deviceIndex, int axis, double velocity, double acceleration, Units velocityUnit, Units accelerationUnit)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>axis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>velocity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>acceleration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>velocityUnit</code> <span class="xref">Units</span></dt>
+    <dd></dd>
+    <dt><code>accelerationUnit</code> <span class="xref">Units</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice_Open_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.Open*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice_Open" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.Open">
+  Open()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Opens a new connection to a <a class="xref" href="AllenNeuralDynamics.Zaber.ZaberDevice.html">ZaberDevice</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Open()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice_Park_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.Park*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice_Park_System_Nullable_System_Int32__System_Nullable_System_Int32__" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.Park(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+  Park(int?, int?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Park(int? deviceIndex, int? axis)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>axis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice_SetSetting_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.SetSetting*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice_SetSetting_System_Nullable_System_Int32__System_Int32_System_String_System_Double_Zaber_Motion_Units_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.SetSetting(System.Nullable{System.Int32},System.Int32,System.String,System.Double,Zaber.Motion.Units)">
+  SetSetting(int?, int, string, double, Units)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSetting(int? deviceIndex, int axis, string setting, double value, Units units = Units.Native)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>axis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>setting</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>units</code> <span class="xref">Units</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice_Stop_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.Stop*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice_Stop_System_Nullable_System_Int32__System_Nullable_System_Int32__" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.Stop(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+  Stop(int?, int?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Stop(int? deviceIndex, int? axis)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>axis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice_Unpark_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.Unpark*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice_Unpark_System_Nullable_System_Int32__System_Nullable_System_Int32__" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.Unpark(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+  Unpark(int?, int?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Unpark(int? deviceIndex, int? axis)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>axis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_Zaber_ZaberDevice_WaitUntilIdle_" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.WaitUntilIdle*"></a>
+
+  <h3 id="AllenNeuralDynamics_Zaber_ZaberDevice_WaitUntilIdle_System_Nullable_System_Int32__System_Nullable_System_Int32__" data-uid="AllenNeuralDynamics.Zaber.ZaberDevice.WaitUntilIdle(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+  WaitUntilIdle(int?, int?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Unit&gt; WaitUntilIdle(int? deviceIndex, int? axis)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deviceIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+    <dt><code>axis</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://horizongir.github.io/reactive/api/System.Reactive.Unit.html">Unit</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.Zaber/ZaberDevice.cs/#L14" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
