@@ -9,7 +9,7 @@
     <PackageTags>Bonsai Rx Manipulator AllenNeuralDynamics</PackageTags>
     <TargetFramework>net480</TargetFramework>
     <Features>strict</Features>
-    <Version>0.1.4</Version>
+    <Version>0.1.5</Version>
   </PropertyGroup>
 
   <ItemGroup>

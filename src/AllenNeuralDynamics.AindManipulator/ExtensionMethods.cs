@@ -145,6 +145,7 @@ namespace AllenNeuralDynamics.AindManipulator {
         }
     }
 
+    // This is just a wrapper around the ManipulatorPosition class to allow for a 
     public class AindManipulatorPosition
     {
         public double X;

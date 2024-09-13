@@ -1199,7 +1199,7 @@
                     <Property Name="Value" DisplayName="X" />
                   </Expression>
                   <Expression xsi:type="Combinator">
-                    <Combinator xsi:type="IntProperty">
+                    <Combinator xsi:type="FloatProperty">
                       <Value>1</Value>
                     </Combinator>
                   </Expression>
@@ -1207,7 +1207,7 @@
                     <Property Name="Value" DisplayName="Y1" />
                   </Expression>
                   <Expression xsi:type="Combinator">
-                    <Combinator xsi:type="IntProperty">
+                    <Combinator xsi:type="FloatProperty">
                       <Value>1</Value>
                     </Combinator>
                   </Expression>
@@ -1215,7 +1215,7 @@
                     <Property Name="Value" DisplayName="Y2" />
                   </Expression>
                   <Expression xsi:type="Combinator">
-                    <Combinator xsi:type="IntProperty">
+                    <Combinator xsi:type="FloatProperty">
                       <Value>1</Value>
                     </Combinator>
                   </Expression>
@@ -1223,7 +1223,7 @@
                     <Property Name="Value" DisplayName="Z" />
                   </Expression>
                   <Expression xsi:type="Combinator">
-                    <Combinator xsi:type="IntProperty">
+                    <Combinator xsi:type="FloatProperty">
                       <Value>1</Value>
                     </Combinator>
                   </Expression>
