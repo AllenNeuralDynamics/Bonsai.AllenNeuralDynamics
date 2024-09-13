@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WorkflowBuilder Version="2.8.1"
+<WorkflowBuilder Version="2.8.5"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
                  xmlns:harp="clr-namespace:Bonsai.Harp;assembly=Bonsai.Harp"
@@ -63,8 +63,8 @@
       </Expression>
       <Expression xsi:type="p1:CreateMessage">
         <harp:MessageType>Write</harp:MessageType>
-        <harp:Payload xsi:type="p1:CreateBreakCurrentSetPointPayload">
-          <p1:BreakCurrentSetPoint>0</p1:BreakCurrentSetPoint>
+        <harp:Payload xsi:type="p1:CreateBrakeCurrentSetPointPayload">
+          <p1:BrakeCurrentSetPoint>0</p1:BrakeCurrentSetPoint>
         </harp:Payload>
       </Expression>
       <Expression xsi:type="MulticastSubject">
