@@ -387,6 +387,8 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     public abstract partial class DataTypes
     {
     
+        private string _aindBehaviorServicesPkgVersion = "0.8.0-rc1";
+    
         private string _version = "0.1.1";
     
         private SoftwareEvent _softwareEvent = new SoftwareEvent();
@@ -399,9 +401,23 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     
         protected DataTypes(DataTypes other)
         {
+            _aindBehaviorServicesPkgVersion = other._aindBehaviorServicesPkgVersion;
             _version = other._version;
             _softwareEvent = other._softwareEvent;
             _renderSynchState = other._renderSynchState;
+        }
+    
+        [Newtonsoft.Json.JsonPropertyAttribute("aind_behavior_services_pkg_version")]
+        public string AindBehaviorServicesPkgVersion
+        {
+            get
+            {
+                return _aindBehaviorServicesPkgVersion;
+            }
+            set
+            {
+                _aindBehaviorServicesPkgVersion = value;
+            }
         }
     
         [Newtonsoft.Json.JsonPropertyAttribute("version")]
@@ -447,6 +463,7 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     
         protected virtual bool PrintMembers(System.Text.StringBuilder stringBuilder)
         {
+            stringBuilder.Append("aind_behavior_services_pkg_version = " + _aindBehaviorServicesPkgVersion + ", ");
             stringBuilder.Append("version = " + _version + ", ");
             stringBuilder.Append("software_event = " + _softwareEvent + ", ");
             stringBuilder.Append("render_synch_state = " + _renderSynchState);
