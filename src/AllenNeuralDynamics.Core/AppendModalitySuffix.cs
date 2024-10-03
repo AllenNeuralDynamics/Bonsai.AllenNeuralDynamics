@@ -23,7 +23,6 @@ namespace AllenNeuralDynamics.Core
 
         private readonly Dictionary<Modality, string> modalityDirectories = new Dictionary<Modality, string>()
         {
-                {Core.Modality.Other, "other"},
                 {Core.Modality.Behavior, "behavior"},
                 {Core.Modality.Confocal, "confocal"},
                 {Core.Modality.Ecephys, "ecephys"},
@@ -43,7 +42,6 @@ namespace AllenNeuralDynamics.Core
 
     public enum Modality
     {
-        Other = 0,
         Behavior = 1,
         Confocal = 2,
         Ecephys = 3,

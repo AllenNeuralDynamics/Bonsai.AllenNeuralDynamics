@@ -27,6 +27,9 @@ namespace AllenNeuralDynamics.Core
         [Description("The optional set of command-line arguments to use for configuring the video codec.")]
         public string OutputArguments { get; set; }
 
+        [Description("The optional set of command-line arguments to use for configuring the input video stream.")]
+        public string InputArguments { get; set; }
+
         public override IObservable<IplImage> Process(IObservable<IplImage> source)
         {
             return source.Publish(ps =>
@@ -43,12 +46,13 @@ namespace AllenNeuralDynamics.Core
                 var writer = new ImageWriter { Path = pipe };
                 return writer.Process(ps).Merge(ps.Take(1).Delay(TimeSpan.FromSeconds(1)).SelectMany(image =>
                 {
-                    var args = string.Format("-f rawvideo -vcodec rawvideo {0}-s {1}x{2} -r {3} -pix_fmt {4} -i {5} {6} {7}",
+                    var args = string.Format("-f rawvideo -vcodec rawvideo {0}-s {1}x{2} -r {3} -pix_fmt {4} {5} -i {6} {7} {8}",
                         overwrite ? "-y " : string.Empty,
                         image.Width,
                         image.Height,
                         FrameRate,
                         image.Channels == 1 ? "gray" : "bgr24",
+                        InputArguments,
                         pipe,
                         OutputArguments,
                         fileName);

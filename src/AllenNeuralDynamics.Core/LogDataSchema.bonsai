@@ -20,7 +20,7 @@
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="p1:AppendModalitySuffix">
-          <p1:Modality>Other</p1:Modality>
+          <p1:Modality>Behavior</p1:Modality>
         </Combinator>
       </Expression>
       <Expression xsi:type="ExternalizedMapping">
