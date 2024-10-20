@@ -1,0 +1,644 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AxisConfiguration </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AxisConfiguration ">
+      
+      <meta name="description" content="Axis configuration">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/new/main/docs/apidoc/new?filename=AllenNeuralDynamics_AindManipulator_AxisConfiguration.md&amp;value=---%0Auid%3A%20AllenNeuralDynamics.AindManipulator.AxisConfiguration%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration">
+
+
+
+  <h1 id="AllenNeuralDynamics_AindManipulator_AxisConfiguration" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration" class="text-break">
+Class AxisConfiguration  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.AindManipulator/AindManipulatorSchema.cs/#L516"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AllenNeuralDynamics.html">AllenNeuralDynamics</a>.<a class="xref" href="AllenNeuralDynamics.AindManipulator.html">AindManipulator</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>AllenNeuralDynamics.AindManipulator.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Axis configuration</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Combinator]
+[WorkflowElementCategory(ElementCategory.Source)]
+public class AxisConfiguration</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AxisConfiguration</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="AllenNeuralDynamics_AindManipulator_AxisConfiguration__ctor_" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.#ctor*"></a>
+
+  <h3 id="AllenNeuralDynamics_AindManipulator_AxisConfiguration__ctor" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.#ctor">
+  AxisConfiguration()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.AindManipulator/AindManipulatorSchema.cs/#L539"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AxisConfiguration()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_AindManipulator_AxisConfiguration__ctor_" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.#ctor*"></a>
+
+  <h3 id="AllenNeuralDynamics_AindManipulator_AxisConfiguration__ctor_AllenNeuralDynamics_AindManipulator_AxisConfiguration_" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.#ctor(AllenNeuralDynamics.AindManipulator.AxisConfiguration)">
+  AxisConfiguration(AxisConfiguration)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.AindManipulator/AindManipulatorSchema.cs/#L543"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected AxisConfiguration(AxisConfiguration other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="AllenNeuralDynamics.AindManipulator.AxisConfiguration.html">AxisConfiguration</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_Axis_" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.Axis*"></a>
+
+  <h3 id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_Axis" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.Axis">
+  Axis
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.AindManipulator/AindManipulatorSchema.cs/#L555"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;axis&quot;, Required = Required.Always)]
+public Axis Axis { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AllenNeuralDynamics.AindManipulator.Axis.html">Axis</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_MaxLimit_" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.MaxLimit*"></a>
+
+  <h3 id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_MaxLimit" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.MaxLimit">
+  MaxLimit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.AindManipulator/AindManipulatorSchema.cs/#L644"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;max_limit&quot;)]
+public double MaxLimit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_MaximumStepInterval_" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.MaximumStepInterval*"></a>
+
+  <h3 id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_MaximumStepInterval" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.MaximumStepInterval">
+  MaximumStepInterval
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.AindManipulator/AindManipulatorSchema.cs/#L617"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;maximum_step_interval&quot;)]
+public int MaximumStepInterval { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_MicrostepResolution_" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.MicrostepResolution*"></a>
+
+  <h3 id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_MicrostepResolution" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.MicrostepResolution">
+  MicrostepResolution
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.AindManipulator/AindManipulatorSchema.cs/#L603"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;microstep_resolution&quot;)]
+public MicrostepResolution MicrostepResolution { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AllenNeuralDynamics.AindManipulator.MicrostepResolution.html">MicrostepResolution</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_MinLimit_" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.MinLimit*"></a>
+
+  <h3 id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_MinLimit" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.MinLimit">
+  MinLimit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.AindManipulator/AindManipulatorSchema.cs/#L657"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;min_limit&quot;)]
+public double MinLimit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_MotorOperationMode_" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.MotorOperationMode*"></a>
+
+  <h3 id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_MotorOperationMode" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.MotorOperationMode">
+  MotorOperationMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.AindManipulator/AindManipulatorSchema.cs/#L630"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;motor_operation_mode&quot;)]
+public MotorOperationMode MotorOperationMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="AllenNeuralDynamics.AindManipulator.MotorOperationMode.html">MotorOperationMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_StepAccelerationInterval_" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.StepAccelerationInterval*"></a>
+
+  <h3 id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_StepAccelerationInterval" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.StepAccelerationInterval">
+  StepAccelerationInterval
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.AindManipulator/AindManipulatorSchema.cs/#L572"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Acceleration of the step interval in microseconds</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;step_acceleration_interval&quot;)]
+public int StepAccelerationInterval { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_StepInterval_" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.StepInterval*"></a>
+
+  <h3 id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_StepInterval" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.StepInterval">
+  StepInterval
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.AindManipulator/AindManipulatorSchema.cs/#L589"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Step interval in microseconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;step_interval&quot;)]
+public int StepInterval { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_PrintMembers_" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.PrintMembers*"></a>
+
+  <h3 id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_PrintMembers_System_Text_StringBuilder_" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.PrintMembers(System.Text.StringBuilder)">
+  PrintMembers(StringBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.AindManipulator/AindManipulatorSchema.cs/#L680"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool PrintMembers(StringBuilder stringBuilder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stringBuilder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_Process_" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.Process*"></a>
+
+  <h3 id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_Process" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.Process">
+  Process()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.AindManipulator/AindManipulatorSchema.cs/#L670"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IObservable&lt;AxisConfiguration&gt; Process()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable</a>&lt;<a class="xref" href="AllenNeuralDynamics.AindManipulator.AxisConfiguration.html">AxisConfiguration</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_Process_" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.Process*"></a>
+
+  <h3 id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_Process__1_System_IObservable___0__" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.Process``1(System.IObservable{``0})">
+  Process&lt;TSource&gt;(IObservable&lt;TSource&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.AindManipulator/AindManipulatorSchema.cs/#L675"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IObservable&lt;AxisConfiguration&gt; Process&lt;TSource&gt;(IObservable&lt;TSource&gt; source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable</a>&lt;TSource&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iobservable-1">IObservable</a>&lt;<a class="xref" href="AllenNeuralDynamics.AindManipulator.AxisConfiguration.html">AxisConfiguration</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TSource</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_ToString_" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.ToString*"></a>
+
+  <h3 id="AllenNeuralDynamics_AindManipulator_AxisConfiguration_ToString" data-uid="AllenNeuralDynamics.AindManipulator.AxisConfiguration.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.AindManipulator/AindManipulatorSchema.cs/#L693"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string that represents the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/src/AllenNeuralDynamics.AindManipulator/AindManipulatorSchema.cs/#L516" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
