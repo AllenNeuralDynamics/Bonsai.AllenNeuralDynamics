@@ -387,7 +387,7 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     public abstract partial class DataTypes
     {
     
-        private string _aindBehaviorServicesPkgVersion = "0.8.0";
+        private string _aindBehaviorServicesPkgVersion = "0.10.2";
     
         private string _version = "0.1.1";
     
