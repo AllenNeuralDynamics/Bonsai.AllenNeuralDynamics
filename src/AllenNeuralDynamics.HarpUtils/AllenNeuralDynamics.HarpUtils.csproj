@@ -9,7 +9,7 @@
     <PackageTags>Bonsai Rx Core AllenNeuralDynamics</PackageTags>
     <TargetFramework>net472</TargetFramework>
     <Features>strict</Features>
-    <Version>0.2.0</Version>
+    <Version>0.3.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,21 +17,22 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AllenNeuralDynamics.Core" Version="0.4.0" />
     <PackageReference Include="AllenNeuralDynamics.EnvironmentSensor" Version="0.2.0" />
     <PackageReference Include="AllenNeuralDynamics.LicketySplit" Version="0.2.0" />
     <PackageReference Include="AllenNeuralDynamics.SniffDetector" Version="0.2.0" />
     <PackageReference Include="AllenNeuralDynamics.Treadmill" Version="0.2.0" />
     <PackageReference Include="AllenNeuralDynamics.WhiteRabbit" Version="0.2.0" />
-    <PackageReference Include="Bonsai.Core" Version="2.8.0" />
+    <PackageReference Include="Bonsai.Core" Version="2.8.5" />
     <PackageReference Include="Bonsai.Harp" Version="3.5.2" />
     <PackageReference Include="Bonsai.Harp.Design" Version="3.5.0" />
-    <PackageReference Include="Harp.AnalogInput" Version="0.1.0" />
+    <PackageReference Include="Harp.AnalogInput" Version="0.2.0" />
     <PackageReference Include="Harp.Behavior" Version="0.1.0" />
-    <PackageReference Include="Harp.LoadCells" Version="0.1.0" />
-    <PackageReference Include="Harp.Olfactometer" Version="0.1.0-build231127" />
+    <PackageReference Include="Harp.LoadCells" Version="0.2.0" />
+    <PackageReference Include="Harp.Olfactometer" Version="0.2.0" />
     <PackageReference Include="Harp.StepperDriver" Version="0.3.0" />
-    <PackageReference Include="Harp.TimestampGeneratorGen3" Version="0.1.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="YamlDotNet" Version="16.0.0" />
   </ItemGroup>
   
   <ItemGroup>

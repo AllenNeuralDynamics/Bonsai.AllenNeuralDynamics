@@ -9,6 +9,7 @@
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PackageOutputPath>..\bin\$(Configuration)</PackageOutputPath>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageType>Dependency;BonsaiLibrary</PackageType>
     <PackageIcon>icon.png</PackageIcon>
     <IncludeSymbols>true</IncludeSymbols>
     <RepositoryType>git</RepositoryType>
@@ -19,8 +20,8 @@
 
   <ItemGroup>
     <EmbeddedResource Include="..\AllenNeuralDynamics.svg">
-		<LogicalName>$(ProjectName).$(ProjectName).svg</LogicalName>
-		</EmbeddedResource>
+      <LogicalName>$(ProjectName).$(ProjectName).svg</LogicalName>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
