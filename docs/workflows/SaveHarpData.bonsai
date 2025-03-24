@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WorkflowBuilder Version="2.8.2"
+<WorkflowBuilder Version="2.8.5"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:harp="clr-namespace:Bonsai.Harp;assembly=Bonsai.Harp"
                  xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
@@ -43,20 +43,20 @@
       <Expression xsi:type="SubscribeSubject">
         <Name>DeviceEvents</Name>
       </Expression>
-      <Expression xsi:type="IncludeWorkflow" Path="AllenNeuralDynamics.Core:LogHarpDevice.bonsai">
+      <Expression xsi:type="IncludeWorkflow" Path="AllenNeuralDynamics.HarpUtils:LogHarpDevice.bonsai">
         <SubjectName>LoggingRootPath</SubjectName>
         <Modality>Behavior</Modality>
-        <DeviceName>DeviceName</DeviceName>
-        <HarpDeviceName>HarpDeviceName</HarpDeviceName>
+        <DeviceName>Device</DeviceName>
+        <HarpDeviceName>HarpBehavior</HarpDeviceName>
       </Expression>
       <Expression xsi:type="SubscribeSubject">
         <Name>AnotherDeviceEvents</Name>
       </Expression>
-      <Expression xsi:type="IncludeWorkflow" Path="AllenNeuralDynamics.Core:LogHarpDevice.bonsai">
+      <Expression xsi:type="IncludeWorkflow" Path="AllenNeuralDynamics.HarpUtils:LogHarpDevice.bonsai">
         <SubjectName>LoggingRootPath</SubjectName>
         <Modality>Behavior</Modality>
-        <DeviceName>AnotherDeviceName</DeviceName>
-        <HarpDeviceName>HarpDeviceName</HarpDeviceName>
+        <DeviceName>AnotherDevice</DeviceName>
+        <HarpDeviceName>HarpBehavior</HarpDeviceName>
       </Expression>
     </Nodes>
     <Edges>
