@@ -21,7 +21,7 @@ Once this `Subject` is created, other nodes can access to it. For instance, if o
 
 ### With Metadata
 
-Each device can be saved with metadata by providing the `device.yml` file information to the operator. This string can be passed manually or by using the `GetMetadata` node from the device-specific package.
+Each device can be saved with metadata by providing the `device.yml` file information to the operator. This string (i.e. the literal of the [`device.yml`](https://github.com/AllenNeuralDynamics/harp.device.lickety-split/blob/main/device.yml)) can be passed manually or by using the `GetMetadata` node from the device-specific package.
 For example, to log data from a `LicketySplit` device:
 
 :::workflow
