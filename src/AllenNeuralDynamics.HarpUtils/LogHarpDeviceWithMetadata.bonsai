@@ -55,9 +55,7 @@
               <Property Name="Value" DisplayName="DeviceMetadata" />
             </Expression>
             <Expression xsi:type="Combinator">
-              <Combinator xsi:type="StringProperty">
-                <Value />
-              </Combinator>
+              <Combinator xsi:type="p1:String" />
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="rx:Take">
@@ -85,7 +83,7 @@
               <Property Name="Value" DisplayName="DeviceName" />
             </Expression>
             <Expression xsi:type="Combinator">
-              <Combinator xsi:type="p1:String" />
+              <Combinator xsi:type="StringProperty" />
             </Expression>
             <Expression xsi:type="SubscribeSubject">
               <Name>DeviceMetadata</Name>
