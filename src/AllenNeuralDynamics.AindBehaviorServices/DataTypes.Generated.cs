@@ -9,7 +9,7 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
 {
     #pragma warning disable // Disable all warnings
 
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.3.0.0 (Newtonsoft.Json v13.0.0.0)")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.6.1.0 (Newtonsoft.Json v13.0.0.0)")]
     [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))]
     public enum DataType
     {
@@ -34,9 +34,9 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     }
 
 
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.3.0.0 (Newtonsoft.Json v13.0.0.0)")]
-    [Bonsai.CombinatorAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.6.1.0 (Newtonsoft.Json v13.0.0.0)")]
     [Bonsai.WorkflowElementCategoryAttribute(Bonsai.ElementCategory.Source)]
+    [Bonsai.CombinatorAttribute(MethodName="Generate")]
     public partial class RenderSynchState
     {
     
@@ -111,21 +111,21 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
             }
         }
     
-        public System.IObservable<RenderSynchState> Process()
+        public System.IObservable<RenderSynchState> Generate()
         {
             return System.Reactive.Linq.Observable.Defer(() => System.Reactive.Linq.Observable.Return(new RenderSynchState(this)));
         }
     
-        public System.IObservable<RenderSynchState> Process<TSource>(System.IObservable<TSource> source)
+        public System.IObservable<RenderSynchState> Generate<TSource>(System.IObservable<TSource> source)
         {
             return System.Reactive.Linq.Observable.Select(source, _ => new RenderSynchState(this));
         }
     
         protected virtual bool PrintMembers(System.Text.StringBuilder stringBuilder)
         {
-            stringBuilder.Append("sync_quad_value = " + _syncQuadValue + ", ");
-            stringBuilder.Append("frame_index = " + _frameIndex + ", ");
-            stringBuilder.Append("frame_timestamp = " + _frameTimestamp);
+            stringBuilder.Append("SyncQuadValue = " + _syncQuadValue + ", ");
+            stringBuilder.Append("FrameIndex = " + _frameIndex + ", ");
+            stringBuilder.Append("FrameTimestamp = " + _frameTimestamp);
             return true;
         }
     
@@ -147,11 +147,11 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     /// <summary>
     /// A software event is a generic event that can be used to track any event that occurs in the software.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.3.0.0 (Newtonsoft.Json v13.0.0.0)")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.6.1.0 (Newtonsoft.Json v13.0.0.0)")]
     [System.ComponentModel.DescriptionAttribute("A software event is a generic event that can be used to track any event that occu" +
         "rs in the software.")]
-    [Bonsai.CombinatorAttribute()]
     [Bonsai.WorkflowElementCategoryAttribute(Bonsai.ElementCategory.Source)]
+    [Bonsai.CombinatorAttribute(MethodName="Generate")]
     public partial class SoftwareEvent
     {
     
@@ -159,7 +159,7 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     
         private double? _timestamp;
     
-        private TimestampSource _timestampSource = AllenNeuralDynamics.AindBehaviorServices.DataTypes.TimestampSource.Null;
+        private TimestampSource _timestampSource;
     
         private int? _frameIndex;
     
@@ -167,12 +167,14 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     
         private object _data;
     
-        private DataType _dataType = AllenNeuralDynamics.AindBehaviorServices.DataTypes.DataType.Null;
+        private DataType _dataType;
     
         private string _dataTypeHint;
     
         public SoftwareEvent()
         {
+            _timestampSource = AllenNeuralDynamics.AindBehaviorServices.DataTypes.TimestampSource.Null;
+            _dataType = AllenNeuralDynamics.AindBehaviorServices.DataTypes.DataType.Null;
         }
     
         protected SoftwareEvent(SoftwareEvent other)
@@ -329,26 +331,26 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
             }
         }
     
-        public System.IObservable<SoftwareEvent> Process()
+        public System.IObservable<SoftwareEvent> Generate()
         {
             return System.Reactive.Linq.Observable.Defer(() => System.Reactive.Linq.Observable.Return(new SoftwareEvent(this)));
         }
     
-        public System.IObservable<SoftwareEvent> Process<TSource>(System.IObservable<TSource> source)
+        public System.IObservable<SoftwareEvent> Generate<TSource>(System.IObservable<TSource> source)
         {
             return System.Reactive.Linq.Observable.Select(source, _ => new SoftwareEvent(this));
         }
     
         protected virtual bool PrintMembers(System.Text.StringBuilder stringBuilder)
         {
-            stringBuilder.Append("name = " + _name + ", ");
-            stringBuilder.Append("timestamp = " + _timestamp + ", ");
-            stringBuilder.Append("timestamp_source = " + _timestampSource + ", ");
-            stringBuilder.Append("frame_index = " + _frameIndex + ", ");
-            stringBuilder.Append("frame_timestamp = " + _frameTimestamp + ", ");
-            stringBuilder.Append("data = " + _data + ", ");
-            stringBuilder.Append("dataType = " + _dataType + ", ");
-            stringBuilder.Append("data_type_hint = " + _dataTypeHint);
+            stringBuilder.Append("Name = " + _name + ", ");
+            stringBuilder.Append("Timestamp = " + _timestamp + ", ");
+            stringBuilder.Append("TimestampSource = " + _timestampSource + ", ");
+            stringBuilder.Append("FrameIndex = " + _frameIndex + ", ");
+            stringBuilder.Append("FrameTimestamp = " + _frameTimestamp + ", ");
+            stringBuilder.Append("Data = " + _data + ", ");
+            stringBuilder.Append("DataType = " + _dataType + ", ");
+            stringBuilder.Append("DataTypeHint = " + _dataTypeHint);
             return true;
         }
     
@@ -367,7 +369,7 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     }
 
 
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.3.0.0 (Newtonsoft.Json v13.0.0.0)")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.6.1.0 (Newtonsoft.Json v13.0.0.0)")]
     [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))]
     public enum TimestampSource
     {
@@ -383,121 +385,22 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     }
 
 
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.3.0.0 (Newtonsoft.Json v13.0.0.0)")]
-    public abstract partial class DataTypes
-    {
-    
-        private string _aindBehaviorServicesPkgVersion = "0.10.2";
-    
-        private string _version = "0.1.1";
-    
-        private SoftwareEvent _softwareEvent = new SoftwareEvent();
-    
-        private RenderSynchState _renderSynchState = new RenderSynchState();
-    
-        protected DataTypes()
-        {
-        }
-    
-        protected DataTypes(DataTypes other)
-        {
-            _aindBehaviorServicesPkgVersion = other._aindBehaviorServicesPkgVersion;
-            _version = other._version;
-            _softwareEvent = other._softwareEvent;
-            _renderSynchState = other._renderSynchState;
-        }
-    
-        [Newtonsoft.Json.JsonPropertyAttribute("aind_behavior_services_pkg_version")]
-        public string AindBehaviorServicesPkgVersion
-        {
-            get
-            {
-                return _aindBehaviorServicesPkgVersion;
-            }
-            set
-            {
-                _aindBehaviorServicesPkgVersion = value;
-            }
-        }
-    
-        [Newtonsoft.Json.JsonPropertyAttribute("version")]
-        public string Version
-        {
-            get
-            {
-                return _version;
-            }
-            set
-            {
-                _version = value;
-            }
-        }
-    
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        [Newtonsoft.Json.JsonPropertyAttribute("software_event", Required=Newtonsoft.Json.Required.Always)]
-        public SoftwareEvent SoftwareEvent
-        {
-            get
-            {
-                return _softwareEvent;
-            }
-            set
-            {
-                _softwareEvent = value;
-            }
-        }
-    
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        [Newtonsoft.Json.JsonPropertyAttribute("render_synch_state", Required=Newtonsoft.Json.Required.Always)]
-        public RenderSynchState RenderSynchState
-        {
-            get
-            {
-                return _renderSynchState;
-            }
-            set
-            {
-                _renderSynchState = value;
-            }
-        }
-    
-        protected virtual bool PrintMembers(System.Text.StringBuilder stringBuilder)
-        {
-            stringBuilder.Append("aind_behavior_services_pkg_version = " + _aindBehaviorServicesPkgVersion + ", ");
-            stringBuilder.Append("version = " + _version + ", ");
-            stringBuilder.Append("software_event = " + _softwareEvent + ", ");
-            stringBuilder.Append("render_synch_state = " + _renderSynchState);
-            return true;
-        }
-    
-        public override string ToString()
-        {
-            System.Text.StringBuilder stringBuilder = new System.Text.StringBuilder();
-            stringBuilder.Append(GetType().Name);
-            stringBuilder.Append(" { ");
-            if (PrintMembers(stringBuilder))
-            {
-                stringBuilder.Append(" ");
-            }
-            stringBuilder.Append("}");
-            return stringBuilder.ToString();
-        }
-    }
-
-
     /// <summary>
     /// Serializes a sequence of data model objects into JSON strings.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.3.0.0 (Newtonsoft.Json v13.0.0.0)")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.6.1.0 (Newtonsoft.Json v13.0.0.0)")]
     [System.ComponentModel.DescriptionAttribute("Serializes a sequence of data model objects into JSON strings.")]
-    [Bonsai.CombinatorAttribute()]
     [Bonsai.WorkflowElementCategoryAttribute(Bonsai.ElementCategory.Transform)]
+    [Bonsai.CombinatorAttribute()]
     public partial class SerializeToJson
     {
     
+        public Newtonsoft.Json.Formatting Formatting { get; set; }
+
         private System.IObservable<string> Process<T>(System.IObservable<T> source)
         {
-            return System.Reactive.Linq.Observable.Select(source, value => Newtonsoft.Json.JsonConvert.SerializeObject(value));
+            var formatting = Formatting;
+            return System.Reactive.Linq.Observable.Select(source, value => Newtonsoft.Json.JsonConvert.SerializeObject(value, formatting));
         }
 
         public System.IObservable<string> Process(System.IObservable<RenderSynchState> source)
@@ -509,30 +412,24 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
         {
             return Process<SoftwareEvent>(source);
         }
-
-        public System.IObservable<string> Process(System.IObservable<DataTypes> source)
-        {
-            return Process<DataTypes>(source);
-        }
     }
 
 
     /// <summary>
     /// Deserializes a sequence of JSON strings into data model objects.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.3.0.0 (Newtonsoft.Json v13.0.0.0)")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.6.1.0 (Newtonsoft.Json v13.0.0.0)")]
     [System.ComponentModel.DescriptionAttribute("Deserializes a sequence of JSON strings into data model objects.")]
     [System.ComponentModel.DefaultPropertyAttribute("Type")]
     [Bonsai.WorkflowElementCategoryAttribute(Bonsai.ElementCategory.Transform)]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Bonsai.Expressions.TypeMapping<RenderSynchState>))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Bonsai.Expressions.TypeMapping<SoftwareEvent>))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Bonsai.Expressions.TypeMapping<DataTypes>))]
     public partial class DeserializeFromJson : Bonsai.Expressions.SingleArgumentExpressionBuilder
     {
     
         public DeserializeFromJson()
         {
-            Type = new Bonsai.Expressions.TypeMapping<DataTypes>();
+            Type = new Bonsai.Expressions.TypeMapping<RenderSynchState>();
         }
 
         public Bonsai.Expressions.TypeMapping Type { get; set; }
