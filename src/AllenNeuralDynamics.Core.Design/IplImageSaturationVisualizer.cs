@@ -1,12 +1,9 @@
-﻿using Bonsai;
-using System;
+﻿using System;
 using Bonsai.Vision.Design;
 using OpenTK.Graphics.OpenGL;
-using OpenCV.Net;
-using System.Windows.Forms;
-using AllenNeuralDynamics.Core.Design;
-
-[assembly: TypeVisualizer(typeof(IplImageSaturationVisualizer), Target = typeof(IplImage))]
+using Bonsai.Design;
+using Bonsai.Expressions;
+using AllenNeuralDynamics.VrForaging;
 
 namespace AllenNeuralDynamics.Core.Design
 {
@@ -16,35 +13,30 @@ namespace AllenNeuralDynamics.Core.Design
         int textureLocation;
         int minSaturationLocation;
         int maxSaturationLocation;
+        int alphaLocation;
 
-        NumericUpDown minSaturationInput;
-        NumericUpDown maxSaturationInput;
-        public byte minSaturation { get; set; } = 0;
-        public byte maxSaturation { get; set; } = 255;
+        private byte minSaturation { get; set; } = 0;
+        private byte maxSaturation { get; set; } = 255;
+        public float alpha { get; set; } = 0.5f;
 
         public override void Load(IServiceProvider provider)
         {
+
             base.Load(provider);
 
-            minSaturationInput = NumericUpDownFactory(minSaturation);
-            minSaturationInput.ValueChanged += (sender, e) =>
+            var context = (ITypeVisualizerContext)provider.GetService(typeof(ITypeVisualizerContext));
+            if (ExpressionBuilder.GetVisualizerElement(context.Source).Builder is IplImageSaturationVisualizerBuilder visualizerBuilder)
             {
-                minSaturation = (byte)minSaturationInput.Value;
-            };
-
-            maxSaturationInput = NumericUpDownFactory(maxSaturation);
-            maxSaturationInput.ValueChanged += (sender, e) =>
-            {
-                maxSaturation = (byte)maxSaturationInput.Value;
-            };
-
-            ToolStripControlHost minSaturationInputHost = new ToolStripControlHost(minSaturationInput);
-            ToolStripControlHost maxSaturationInputHost = new ToolStripControlHost(maxSaturationInput);
-
-            StatusStrip.Items.Add(new ToolStripLabel("Min:"));
-            StatusStrip.Items.Add(minSaturationInputHost);
-            StatusStrip.Items.Add(new ToolStripLabel("Max:"));
-            StatusStrip.Items.Add(maxSaturationInputHost);
+                minSaturation = visualizerBuilder.Minimum;
+                maxSaturation = visualizerBuilder.Maximum;
+                alpha = visualizerBuilder.OverlayAlpha;
+                VisualizerCanvas.RenderFrame += (sender, e) =>
+                {
+                    minSaturation = visualizerBuilder.Minimum;
+                    maxSaturation = visualizerBuilder.Maximum;
+                    alpha = visualizerBuilder.OverlayAlpha;
+                };
+            }
 
             VisualizerCanvas.Load += (sender, e) =>
             {
@@ -56,6 +48,7 @@ namespace AllenNeuralDynamics.Core.Design
                 textureLocation = GL.GetUniformLocation(shaderProgram, "texture");
                 minSaturationLocation = GL.GetUniformLocation(shaderProgram, "minSaturation");
                 maxSaturationLocation = GL.GetUniformLocation(shaderProgram, "maxSaturation");
+                alphaLocation = GL.GetUniformLocation(shaderProgram, "alpha");
             };
         }
 
@@ -72,23 +65,10 @@ namespace AllenNeuralDynamics.Core.Design
             GL.Uniform1(textureLocation, 0);
             GL.Uniform1(minSaturationLocation, (float)minSaturation / byte.MaxValue);
             GL.Uniform1(maxSaturationLocation, (float)maxSaturation / byte.MaxValue);
+            GL.Uniform1(alphaLocation, (float)alpha);
 
             GL.PopMatrix();
             GL.UseProgram(0);
-        }
-
-        private byte? SanitizeInput(string value)
-        {
-            return byte.TryParse(value, out byte parsed) ? parsed : null;
-        }
-
-        private NumericUpDown NumericUpDownFactory(byte val, byte min = byte.MinValue, byte max = byte.MaxValue)
-        {
-            var numericUpDown = new NumericUpDown();
-            numericUpDown.Maximum = max;
-            numericUpDown.Minimum = min;
-            numericUpDown.Value = val;
-            return numericUpDown;
         }
 
         int CompileShader(string vertexCode, string fragmentCode)
@@ -122,23 +102,20 @@ in vec2 TexCoords;
 uniform sampler2D imageTexture;
 uniform float minSaturation = 1.0;
 uniform float maxSaturation = 0.0;
+uniform float alpha = 1.0;
 
 out vec4 FragColor;
 
 void main()
 {
-    vec4 color = texture(imageTexture, TexCoords);
-	
-    if (color.r >= maxSaturation){
-        FragColor = vec4(1.0, 0.0, 0.0, 1.0);
+    vec4 texColor = texture(imageTexture, TexCoords);
+    vec4 overlay = vec4(0,0,0,0);
+
+    if (texColor.r >= maxSaturation) overlay = vec4(1,0,0,alpha);
+    else if (texColor.r <= minSaturation) overlay = vec4(0,0,1,alpha);
+
+    FragColor = mix(texColor, overlay, overlay.a);
     }
-    else if (color.r <= minSaturation){
-        FragColor = vec4(0.0, 0.0, 1.0, 1.0);
-    }
-    else{
-        FragColor = color;
-    }
-}
 ";
         const string vertexShaderCode = @"#version 330 core
 layout(location = 0) in vec2 vertexPosition;
