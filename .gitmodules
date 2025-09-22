@@ -19,3 +19,6 @@
 [submodule "docs/harp_devices_src/harp.device.environment-sensor"]
 	path = docs/harp_devices_src/harp.device.environment-sensor
 	url = https://github.com/AllenNeuralDynamics/harp.device.environment-sensor
+[submodule "docs/harp_devices_src/harp.device.cuttlefish-fip"]
+	path = docs/harp_devices_src/harp.device.cuttlefish-fip
+	url = https://github.com/AllenNeuralDynamics/harp.device.cuttlefish-fip
