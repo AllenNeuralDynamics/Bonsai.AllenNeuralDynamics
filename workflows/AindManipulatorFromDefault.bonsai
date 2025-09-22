@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkflowBuilder Version="2.8.2"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:p1="clr-namespace:AllenNeuralDynamics.AindManipulator;assembly=AllenNeuralDynamics.AindManipulator"
+                 xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
+                 xmlns="https://bonsai-rx.org/2018/workflow">
+  <Workflow>
+    <Nodes>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="p1:DefaultManipulatorSettings">
+          <p1:InitialPosition>
+            <p1:X>0</p1:X>
+            <p1:Y1>0</p1:Y1>
+            <p1:Y2>0</p1:Y2>
+            <p1:Z>0</p1:Z>
+          </p1:InitialPosition>
+          <p1:StepToMm>
+            <p1:X>0</p1:X>
+            <p1:Y1>0</p1:Y1>
+            <p1:Y2>0</p1:Y2>
+            <p1:Z>0</p1:Z>
+          </p1:StepToMm>
+          <p1:HomingOrder>
+            <p1:Axis>Y1</p1:Axis>
+            <p1:Axis>Y2</p1:Axis>
+            <p1:Axis>X</p1:Axis>
+            <p1:Axis>Z</p1:Axis>
+          </p1:HomingOrder>
+          <p1:EnabledAxis>
+            <p1:Axis>Y1</p1:Axis>
+            <p1:Axis>Y2</p1:Axis>
+            <p1:Axis>X</p1:Axis>
+            <p1:Axis>Z</p1:Axis>
+          </p1:EnabledAxis>
+          <p1:StepAccelerationInterval>100</p1:StepAccelerationInterval>
+          <p1:StepInterval>100</p1:StepInterval>
+          <p1:MicrostepResolution>Microstep8</p1:MicrostepResolution>
+          <p1:MaximumStepInterval>2000</p1:MaximumStepInterval>
+          <p1:MotorOperationMode>QuietMode</p1:MotorOperationMode>
+          <p1:MaxLimit>24000</p1:MaxLimit>
+          <p1:MinLimit>100</p1:MinLimit>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="rx:AsyncSubject">
+        <Name>ManipulatorSettings</Name>
+      </Expression>
+      <Expression xsi:type="SubscribeSubject">
+        <Name>ManipulatorSettings</Name>
+      </Expression>
+      <Expression xsi:type="IncludeWorkflow" Path="AllenNeuralDynamics.AindManipulator:AindManipulator.bonsai">
+        <OperationMode>Active</OperationMode>
+        <OperationLed>On</OperationLed>
+        <DumpRegisters>false</DumpRegisters>
+        <VisualIndicators>On</VisualIndicators>
+        <Heartbeat>Enabled</Heartbeat>
+        <IgnoreErrors>false</IgnoreErrors>
+        <PortName>COMx</PortName>
+      </Expression>
+    </Nodes>
+    <Edges>
+      <Edge From="0" To="1" Label="Source1" />
+      <Edge From="2" To="3" Label="Source1" />
+    </Edges>
+  </Workflow>
+</WorkflowBuilder>

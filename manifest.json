@@ -1,0 +1,4441 @@
+{
+  "source_base_path": "D:/a/Bonsai.AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindBehaviorServices.DataTypes.DataType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindBehaviorServices.DataTypes.DataType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindBehaviorServices.DataTypes.DeserializeFromJson.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindBehaviorServices.DataTypes.DeserializeFromJson.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindBehaviorServices.DataTypes.RenderSynchState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindBehaviorServices.DataTypes.RenderSynchState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindBehaviorServices.DataTypes.SerializeToJson.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindBehaviorServices.DataTypes.SerializeToJson.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindBehaviorServices.DataTypes.SoftwareEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindBehaviorServices.DataTypes.SoftwareEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindBehaviorServices.DataTypes.TimestampSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindBehaviorServices.DataTypes.TimestampSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindBehaviorServices.DataTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindBehaviorServices.DataTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.AindManipulatorCalibration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.AindManipulatorCalibration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.AindManipulatorCalibrationInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.AindManipulatorCalibrationInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.AindManipulatorCalibrationOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.AindManipulatorCalibrationOutput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.AindManipulatorDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.AindManipulatorDevice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.AindManipulatorPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.AindManipulatorPosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.Axis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.Axis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.AxisConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.AxisConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.BaseModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.BaseModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.CalibrationRig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.CalibrationRig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.ConfigureMotor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.ConfigureMotor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.ContainsKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.ContainsKey.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.ConverterMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.ConverterMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.DefaultManipulatorSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.DefaultManipulatorSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.DeserializeFromJson.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.DeserializeFromJson.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.HomeAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.HomeAxis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.ManipulatorPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.ManipulatorPosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.ManipulatorSiUnitConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.ManipulatorSiUnitConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.MicrostepResolution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.MicrostepResolution.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.ModifyMaskMotorRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.ModifyMaskMotorRegister.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.MotorOperationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.MotorOperationMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.MoveAbsoluteSingleAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.MoveAbsoluteSingleAxis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.OffsetMotorRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.OffsetMotorRegister.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.SerializeToJson.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.SerializeToJson.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AindManipulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AindManipulator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AlicatFlowmeter.FlowmeterDataframe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AlicatFlowmeter.FlowmeterDataframe.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AlicatFlowmeter.Parse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AlicatFlowmeter.Parse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.AlicatFlowmeter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.AlicatFlowmeter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.AindSpinnakerCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.AindSpinnakerCapture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.AppendModalitySuffix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.AppendModalitySuffix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.CaptureProcess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.CaptureProcess.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.ContainsKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.ContainsKey.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.CreateSoftwareEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.CreateSoftwareEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.Design.AccumulateToImmutableList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.Design.AccumulateToImmutableList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.Design.AddImageWeighted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.Design.AddImageWeighted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.Design.Annotation-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.Design.Annotation-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.Design.AnnotationControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.Design.AnnotationControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.Design.AnnotationSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.Design.AnnotationSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.Design.AnnotationSourceVisualizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.Design.AnnotationSourceVisualizer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.Design.ImGuiControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.Design.ImGuiControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.Design.IplImageRotateVisualizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.Design.IplImageRotateVisualizer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.Design.IplImageSaturationVisualizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.Design.IplImageSaturationVisualizer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.Design.MessageBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.Design.MessageBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.Design.SoftwareEventVisualizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.Design.SoftwareEventVisualizer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.Design.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.Design.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.FfmpegVideoWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.FfmpegVideoWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.FileCopy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.FileCopy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.FramestampSoftwareEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.FramestampSoftwareEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.JsonWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.JsonWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.Modality.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.Modality.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.StartProcessOnNewConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.StartProcessOnNewConsole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.StartRobocopy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.StartRobocopy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.StripDirectoryPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.StripDirectoryPath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.ThrowException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.ThrowException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.TimeSpanFromSeconds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.TimeSpanFromSeconds.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.TimestampSoftwareEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.TimestampSoftwareEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.Verbosity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.Verbosity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.YamlWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.YamlWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.ArmExternalStartTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.ArmExternalStartTrigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.ArmExternalStopTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.ArmExternalStopTrigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.AsyncDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.AsyncDevice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.ConfigurePwm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.ConfigurePwm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateArmExternalStartTriggerPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateArmExternalStartTriggerPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateArmExternalStopTriggerPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateArmExternalStopTriggerPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateExternalStartTriggerEdgePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateExternalStartTriggerEdgePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateExternalStopTriggerEdgePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateExternalStopTriggerEdgePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreatePortDirectionPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreatePortDirectionPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreatePortStatePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreatePortStatePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreatePwmTaskPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreatePwmTaskPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateSoftwareStartTriggerPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateSoftwareStartTriggerPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateSoftwareStopTriggerPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateSoftwareStopTriggerPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTaskControlPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTaskControlPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedArmExternalStartTriggerPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedArmExternalStartTriggerPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedArmExternalStopTriggerPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedArmExternalStopTriggerPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedExternalStartTriggerEdgePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedExternalStartTriggerEdgePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedExternalStopTriggerEdgePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedExternalStopTriggerEdgePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedPortDirectionPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedPortDirectionPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedPortStatePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedPortStatePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedPwmTaskPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedPwmTaskPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedSoftwareStartTriggerPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedSoftwareStartTriggerPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedSoftwareStopTriggerPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedSoftwareStopTriggerPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedTaskControlPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.CreateTimestampedTaskControlPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.Device.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.ExternalStartTriggerEdge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.ExternalStartTriggerEdge.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.ExternalStopTriggerEdge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.ExternalStopTriggerEdge.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.FilterRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.FilterRegister.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.Format.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.Format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.GetMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.GetMetadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.GroupByRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.GroupByRegister.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.HelperMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.HelperMethods.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.Parse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.Parse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.PortDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.PortDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.PortState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.PortState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.Ports.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.Ports.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.PwmTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.PwmTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.SoftwareStartTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.SoftwareStartTrigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.SoftwareStopTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.SoftwareStopTrigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.TaskControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.TaskControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.TaskControlPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.TaskControlPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedArmExternalStartTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedArmExternalStartTrigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedArmExternalStopTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedArmExternalStopTrigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedExternalStartTriggerEdge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedExternalStartTriggerEdge.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedExternalStopTriggerEdge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedExternalStopTriggerEdge.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedPortDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedPortDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedPortState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedPortState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedPwmTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedPwmTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedSoftwareStartTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedSoftwareStartTrigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedSoftwareStopTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedSoftwareStopTrigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedTaskControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.TimestampedTaskControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Cuttlefish.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Cuttlefish.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.AddTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.AddTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.AsyncDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.AsyncDevice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.ClearAllTasks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.ClearAllTasks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.ConfigureTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.ConfigureTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateAddTaskPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateAddTaskPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateClearAllTasksPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateClearAllTasksPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateRemoveTaskPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateRemoveTaskPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateSetTaskStatePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateSetTaskStatePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTask0SettingsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTask0SettingsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTask1SettingsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTask1SettingsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTask2SettingsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTask2SettingsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTask3SettingsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTask3SettingsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTask4SettingsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTask4SettingsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTask5SettingsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTask5SettingsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTask6SettingsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTask6SettingsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTask7SettingsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTask7SettingsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTaskCountPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTaskCountPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTaskRisingEdgeEventPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTaskRisingEdgeEventPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedAddTaskPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedAddTaskPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedClearAllTasksPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedClearAllTasksPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedRemoveTaskPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedRemoveTaskPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedSetTaskStatePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedSetTaskStatePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask0SettingsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask0SettingsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask1SettingsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask1SettingsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask2SettingsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask2SettingsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask3SettingsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask3SettingsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask4SettingsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask4SettingsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask5SettingsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask5SettingsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask6SettingsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask6SettingsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask7SettingsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask7SettingsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTaskCountPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTaskCountPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTaskRisingEdgeEventPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTaskRisingEdgeEventPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Device.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.DeviceDataWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.DeviceDataWriter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.FilterRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.FilterRegister.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Format.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.GetDeviceMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.GetDeviceMetadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.GroupByRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.GroupByRegister.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.HelperMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.HelperMethods.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Parse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Parse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Port.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Port.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Ports.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Ports.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.RemoveTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.RemoveTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.SetTaskState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.SetTaskState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Task0Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Task0Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Task1Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Task1Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Task2Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Task2Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Task3Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Task3Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Task4Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Task4Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Task5Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Task5Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Task6Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Task6Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Task7Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.Task7Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TaskCount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TaskCount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TaskIndex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TaskIndex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TaskPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TaskPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TaskRisingEdgeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TaskRisingEdgeEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TaskState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TaskState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedAddTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedAddTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedClearAllTasks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedClearAllTasks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedRemoveTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedRemoveTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedSetTaskState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedSetTaskState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTask0Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTask0Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTask1Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTask1Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTask2Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTask2Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTask3Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTask3Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTask4Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTask4Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTask5Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTask5Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTask6Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTask6Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTask7Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTask7Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTaskCount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTaskCount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTaskRisingEdgeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.TimestampedTaskRisingEdgeEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.CuttlefishFip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.CuttlefishFip.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.AsyncDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.AsyncDevice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateEnableEventsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateEnableEventsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateHumidityPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateHumidityPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreatePressurePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreatePressurePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateSensorDataPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateSensorDataPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateTemperatureOffsetCPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateTemperatureOffsetCPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateTemperaturePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateTemperaturePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateTimestampedEnableEventsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateTimestampedEnableEventsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateTimestampedHumidityPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateTimestampedHumidityPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateTimestampedPressurePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateTimestampedPressurePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateTimestampedSensorDataPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateTimestampedSensorDataPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateTimestampedTemperatureOffsetCPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateTimestampedTemperatureOffsetCPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateTimestampedTemperaturePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.CreateTimestampedTemperaturePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.Device.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.EnableEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.EnableEvents.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.Events.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.FilterRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.FilterRegister.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.Format.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.Format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.GetMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.GetMetadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.GroupByRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.GroupByRegister.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.Humidity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.Humidity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.Parse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.Parse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.Pressure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.Pressure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.SensorData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.SensorData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.SensorDataPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.SensorDataPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.Temperature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.Temperature.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.TemperatureOffsetC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.TemperatureOffsetC.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.TimestampedEnableEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.TimestampedEnableEvents.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.TimestampedHumidity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.TimestampedHumidity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.TimestampedPressure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.TimestampedPressure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.TimestampedSensorData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.TimestampedSensorData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.TimestampedTemperature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.TimestampedTemperature.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.TimestampedTemperatureOffsetC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.TimestampedTemperatureOffsetC.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.EnvironmentSensor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.HarpUtils.CreateHarpMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.HarpUtils.CreateHarpMetadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.HarpUtils.CreateOdorMix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.HarpUtils.CreateOdorMix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.HarpUtils.HarpDeviceMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.HarpUtils.HarpDeviceMetadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.HarpUtils.ModifyMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.HarpUtils.ModifyMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.HarpUtils.OdorMixMessages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.HarpUtils.OdorMixMessages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.HarpUtils.ParseDeviceMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.HarpUtils.ParseDeviceMetadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.HarpUtils.ValidateClkOutputChannels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.HarpUtils.ValidateClkOutputChannels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.HarpUtils.ValidateClkOutputChannelsDiagnosis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.HarpUtils.ValidateClkOutputChannelsDiagnosis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.HarpUtils.ValidatedDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.HarpUtils.ValidatedDevice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.HarpUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.HarpUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.AsyncDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.AsyncDevice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.Channel0TriggerThreshold.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.Channel0TriggerThreshold.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.Channel0UntriggerThreshold.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.Channel0UntriggerThreshold.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.CreateChannel0TriggerThresholdPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.CreateChannel0TriggerThresholdPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.CreateChannel0UntriggerThresholdPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.CreateChannel0UntriggerThresholdPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.CreateLickStatePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.CreateLickStatePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.CreateMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.CreateMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.CreateTimestampedChannel0TriggerThresholdPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.CreateTimestampedChannel0TriggerThresholdPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.CreateTimestampedChannel0UntriggerThresholdPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.CreateTimestampedChannel0UntriggerThresholdPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.CreateTimestampedLickStatePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.CreateTimestampedLickStatePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.Device.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.FilterRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.FilterRegister.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.Format.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.Format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.GetMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.GetMetadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.GroupByRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.GroupByRegister.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.LickChannels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.LickChannels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.LickState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.LickState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.Parse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.Parse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.TimestampedChannel0TriggerThreshold.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.TimestampedChannel0TriggerThreshold.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.TimestampedChannel0UntriggerThreshold.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.TimestampedChannel0UntriggerThreshold.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.TimestampedLickState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.TimestampedLickState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.LicketySplit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.LicketySplit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.SniffDetector.AsyncDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.SniffDetector.AsyncDevice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.SniffDetector.CreateMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.SniffDetector.CreateMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.SniffDetector.CreateRawVoltageDispatchRatePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.SniffDetector.CreateRawVoltageDispatchRatePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.SniffDetector.CreateRawVoltagePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.SniffDetector.CreateRawVoltagePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.SniffDetector.CreateTimestampedRawVoltageDispatchRatePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.SniffDetector.CreateTimestampedRawVoltageDispatchRatePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.SniffDetector.CreateTimestampedRawVoltagePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.SniffDetector.CreateTimestampedRawVoltagePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.SniffDetector.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.SniffDetector.Device.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.SniffDetector.FilterRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.SniffDetector.FilterRegister.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.SniffDetector.Format.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.SniffDetector.Format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.SniffDetector.GetMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.SniffDetector.GetMetadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.SniffDetector.GroupByRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.SniffDetector.GroupByRegister.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.SniffDetector.Parse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.SniffDetector.Parse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.SniffDetector.RawVoltage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.SniffDetector.RawVoltage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.SniffDetector.RawVoltageDispatchRate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.SniffDetector.RawVoltageDispatchRate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.SniffDetector.TimestampedRawVoltage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.SniffDetector.TimestampedRawVoltage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.SniffDetector.TimestampedRawVoltageDispatchRate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.SniffDetector.TimestampedRawVoltageDispatchRate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.SniffDetector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.SniffDetector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.AsyncDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.AsyncDevice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.BrakeCurrentSetPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.BrakeCurrentSetPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateBrakeCurrentSetPointPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateBrakeCurrentSetPointPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateEnableTorqueLimitPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateEnableTorqueLimitPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateEncoderPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateEncoderPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateResetTareSensorsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateResetTareSensorsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateSensorDataDispatchRatePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateSensorDataDispatchRatePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateSensorDataPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateSensorDataPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTareSensorsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTareSensorsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedBrakeCurrentSetPointPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedBrakeCurrentSetPointPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedEnableTorqueLimitPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedEnableTorqueLimitPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedEncoderPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedEncoderPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedResetTareSensorsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedResetTareSensorsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedSensorDataDispatchRatePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedSensorDataDispatchRatePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedSensorDataPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedSensorDataPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedTareSensorsPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedTareSensorsPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedTorqueLimitStatePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedTorqueLimitStatePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedTorqueLoadCurrentPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedTorqueLoadCurrentPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedTorquePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTimestampedTorquePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTorqueLimitStatePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTorqueLimitStatePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTorqueLoadCurrentPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTorqueLoadCurrentPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTorquePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.CreateTorquePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.Device.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.EnableTorqueLimit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.EnableTorqueLimit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.Encoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.Encoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.FilterRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.FilterRegister.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.Format.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.Format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.GetMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.GetMetadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.GroupByRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.GroupByRegister.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.Parse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.Parse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.ResetTareSensors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.ResetTareSensors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.SensorData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.SensorData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.SensorDataDispatchRate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.SensorDataDispatchRate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.SensorDataPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.SensorDataPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.Sensors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.Sensors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.TareSensors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.TareSensors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedBrakeCurrentSetPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedBrakeCurrentSetPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedEnableTorqueLimit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedEnableTorqueLimit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedEncoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedResetTareSensors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedResetTareSensors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedSensorData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedSensorData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedSensorDataDispatchRate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedSensorDataDispatchRate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedTareSensors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedTareSensors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedTorque.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedTorque.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedTorqueLimitState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedTorqueLimitState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedTorqueLoadCurrent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.TimestampedTorqueLoadCurrent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.Torque.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.Torque.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.TorqueLimitState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.TorqueLimitState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.TorqueLoadCurrent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.TorqueLoadCurrent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.Treadmill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.Treadmill.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.VersionControl.CreateRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.VersionControl.CreateRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.VersionControl.IsRepositoryClean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.VersionControl.IsRepositoryClean.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.VersionControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.VersionControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.VrForaging.IplImageSaturationVisualizerBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.VrForaging.IplImageSaturationVisualizerBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.VrForaging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.VrForaging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.AsyncDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.AsyncDevice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.AuxPortBaudRate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.AuxPortBaudRate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.AuxPortMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.AuxPortMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.AuxPortModeConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.AuxPortModeConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.ClockOutChannels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.ClockOutChannels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.ConnectedDevices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.ConnectedDevices.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.Counter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.Counter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CounterFrequencyHz.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CounterFrequencyHz.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateAuxPortBaudRatePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateAuxPortBaudRatePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateAuxPortModePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateAuxPortModePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateConnectedDevicesPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateConnectedDevicesPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateCounterFrequencyHzPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateCounterFrequencyHzPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateCounterPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateCounterPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateTimestampedAuxPortBaudRatePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateTimestampedAuxPortBaudRatePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateTimestampedAuxPortModePayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateTimestampedAuxPortModePayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateTimestampedConnectedDevicesPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateTimestampedConnectedDevicesPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateTimestampedCounterFrequencyHzPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateTimestampedCounterFrequencyHzPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateTimestampedCounterPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.CreateTimestampedCounterPayload.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.Device.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.Device.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.FilterRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.FilterRegister.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.Format.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.Format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.GetMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.GetMetadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.GroupByRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.GroupByRegister.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.Parse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.Parse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.TimestampedAuxPortBaudRate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.TimestampedAuxPortBaudRate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.TimestampedAuxPortMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.TimestampedAuxPortMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.TimestampedConnectedDevices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.TimestampedConnectedDevices.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.TimestampedCounter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.TimestampedCounter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.TimestampedCounterFrequencyHz.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.TimestampedCounterFrequencyHz.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AllenNeuralDynamics.WhiteRabbit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AllenNeuralDynamics.WhiteRabbit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/aind-manipulator.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/aind-manipulator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/core-logging.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/core-logging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/environment-sensor.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/environment-sensor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/lickety-split-lick-detector.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/lickety-split-lick-detector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/sniff-detector.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/sniff-detector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/treadmill.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/treadmill.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/version-control.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/version-control.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "full-logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "full-logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "harp_devices_spec/Harp_Cuttlefish.md",
+      "output": {
+        ".html": {
+          "relative_path": "harp_devices_spec/Harp_Cuttlefish.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "harp_devices_spec/Harp_CuttlefishFip.md",
+      "output": {
+        ".html": {
+          "relative_path": "harp_devices_spec/Harp_CuttlefishFip.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "harp_devices_spec/Harp_CuttlefishFip_Device.md",
+      "output": {
+        ".html": {
+          "relative_path": "harp_devices_spec/Harp_CuttlefishFip_Device.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "harp_devices_spec/Harp_Cuttlefish_Device.md",
+      "output": {
+        ".html": {
+          "relative_path": "harp_devices_spec/Harp_Cuttlefish_Device.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "harp_devices_spec/Harp_EnvironmentSensor.md",
+      "output": {
+        ".html": {
+          "relative_path": "harp_devices_spec/Harp_EnvironmentSensor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "harp_devices_spec/Harp_EnvironmentSensor_Device.md",
+      "output": {
+        ".html": {
+          "relative_path": "harp_devices_spec/Harp_EnvironmentSensor_Device.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "harp_devices_spec/Harp_LicketySplit.md",
+      "output": {
+        ".html": {
+          "relative_path": "harp_devices_spec/Harp_LicketySplit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "harp_devices_spec/Harp_LicketySplit_Device.md",
+      "output": {
+        ".html": {
+          "relative_path": "harp_devices_spec/Harp_LicketySplit_Device.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "harp_devices_spec/Harp_SniffDetector.md",
+      "output": {
+        ".html": {
+          "relative_path": "harp_devices_spec/Harp_SniffDetector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "harp_devices_spec/Harp_SniffDetector_Device.md",
+      "output": {
+        ".html": {
+          "relative_path": "harp_devices_spec/Harp_SniffDetector_Device.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "harp_devices_spec/Harp_Treadmill.md",
+      "output": {
+        ".html": {
+          "relative_path": "harp_devices_spec/Harp_Treadmill.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "harp_devices_spec/Harp_Treadmill_Device.md",
+      "output": {
+        ".html": {
+          "relative_path": "harp_devices_spec/Harp_Treadmill_Device.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "harp_devices_spec/Harp_WhiteRabbit.md",
+      "output": {
+        ".html": {
+          "relative_path": "harp_devices_spec/Harp_WhiteRabbit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "harp_devices_spec/Harp_WhiteRabbit_Device.md",
+      "output": {
+        ".html": {
+          "relative_path": "harp_devices_spec/Harp_WhiteRabbit_Device.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "harp_devices_spec/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "harp_devices_spec/toc.html"
+        },
+        ".json": {
+          "relative_path": "harp_devices_spec/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "harp_devices_src/harp.device.cuttlefish-fip/assets/pics/fip_waveform.png",
+      "output": {
+        "resource": {
+          "relative_path": "harp_devices_src/harp.device.cuttlefish-fip/assets/pics/fip_waveform.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "harp_devices_src/harp.device.lickety-split/notes/images/behavior_switch_settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "harp_devices_src/harp.device.lickety-split/notes/images/behavior_switch_settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "harp_devices_src/harp.device.lickety-split/notes/images/ephys_switch_settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "harp_devices_src/harp.device.lickety-split/notes/images/ephys_switch_settings.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "harp_devices_src/harp.device.lickety-split/notes/images/pinout.png",
+      "output": {
+        "resource": {
+          "relative_path": "harp_devices_src/harp.device.lickety-split/notes/images/pinout.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "harp_devices_src/harp.device.lickety-split/notes/images/setup_a.png",
+      "output": {
+        "resource": {
+          "relative_path": "harp_devices_src/harp.device.lickety-split/notes/images/setup_a.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "harp_devices_src/harp.device.lickety-split/notes/images/setup_b.png",
+      "output": {
+        "resource": {
+          "relative_path": "harp_devices_src/harp.device.lickety-split/notes/images/setup_b.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "harp_devices_src/harp.device.lickety-split/notes/images/setup_c.png",
+      "output": {
+        "resource": {
+          "relative_path": "harp_devices_src/harp.device.lickety-split/notes/images/setup_c.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "harp_devices_src/harp.device.treadmill/assets/pics/overview_diagram.png",
+      "output": {
+        "resource": {
+          "relative_path": "harp_devices_src/harp.device.treadmill/assets/pics/overview_diagram.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "harp_devices_src/harp.device.treadmill/assets/pics/treadmill_no_background.png",
+      "output": {
+        "resource": {
+          "relative_path": "harp_devices_src/harp.device.treadmill/assets/pics/treadmill_no_background.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "harp_devices_src/harp.device.white-rabbit/assets/pics/aux_uart.png",
+      "output": {
+        "resource": {
+          "relative_path": "harp_devices_src/harp.device.white-rabbit/assets/pics/aux_uart.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "harp_devices_src/harp.device.white-rabbit/assets/pics/aux_uart_specs.png",
+      "output": {
+        "resource": {
+          "relative_path": "harp_devices_src/harp.device.white-rabbit/assets/pics/aux_uart_specs.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "harp_devices_src/harp.device.white-rabbit/assets/pics/pps.png",
+      "output": {
+        "resource": {
+          "relative_path": "harp_devices_src/harp.device.white-rabbit/assets/pics/pps.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "harp_devices_src/harp.device.white-rabbit/assets/pics/white_rabbit.png",
+      "output": {
+        "resource": {
+          "relative_path": "harp_devices_src/harp.device.white-rabbit/assets/pics/white_rabbit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/_._",
+      "output": {
+        "resource": {
+          "relative_path": "images/_._"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/aind_manipulator_3d.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/aind_manipulator_3d.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/manipulator.ai",
+      "output": {
+        "resource": {
+          "relative_path": "images/manipulator.ai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/AindManipulatorFromDefault.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/AindManipulatorFromDefault.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/AindManipulatorFromDefault.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/AindManipulatorFromDefault.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/AindManipulatorFromJson.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/AindManipulatorFromJson.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/AindManipulatorFromJson.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/AindManipulatorFromJson.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/CheckRepositoryStatus.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/CheckRepositoryStatus.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/CheckRepositoryStatus.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/CheckRepositoryStatus.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/EnvironmentSensorExample.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/EnvironmentSensorExample.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/EnvironmentSensorExample.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/EnvironmentSensorExample.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/GenerateHarpDeviceMetadatataExample.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/GenerateHarpDeviceMetadatataExample.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/GenerateHarpDeviceMetadatataExample.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/GenerateHarpDeviceMetadatataExample.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/GenerateRootLoggingPath.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/GenerateRootLoggingPath.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/GenerateRootLoggingPath.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/GenerateRootLoggingPath.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/LiketySplitLickDetection.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/LiketySplitLickDetection.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/LiketySplitLickDetection.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/LiketySplitLickDetection.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/SaveHarpData.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/SaveHarpData.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/SaveHarpData.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/SaveHarpData.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/SaveHarpDataWithMetadata.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/SaveHarpDataWithMetadata.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/SaveHarpDataWithMetadata.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/SaveHarpDataWithMetadata.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/SaveSpinnakerCamera.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/SaveSpinnakerCamera.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/SaveSpinnakerCamera.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/SaveSpinnakerCamera.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/SniffDetectorChangeDispatchRate.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/SniffDetectorChangeDispatchRate.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/SniffDetectorChangeDispatchRate.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/SniffDetectorChangeDispatchRate.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/SniffDetectorParsing.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/SniffDetectorParsing.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/SniffDetectorParsing.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/SniffDetectorParsing.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/SoftwareEventLogging.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/SoftwareEventLogging.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/SoftwareEventLogging.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/SoftwareEventLogging.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/TreadmillBreak.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/TreadmillBreak.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/TreadmillBreak.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/TreadmillBreak.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/TreadmillParsing.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/TreadmillParsing.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/TreadmillParsing.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/TreadmillParsing.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/TreadmillSettings.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/TreadmillSettings.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/TreadmillSettings.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/TreadmillSettings.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/_._",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/_._"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

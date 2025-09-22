@@ -1,0 +1,535 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Namespace AllenNeuralDynamics.CuttlefishFip </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Namespace AllenNeuralDynamics.CuttlefishFip ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AllenNeuralDynamics.CuttlefishFip">
+
+  <h1 id="AllenNeuralDynamics_CuttlefishFip" data-uid="AllenNeuralDynamics.CuttlefishFip" class="text-break">Namespace AllenNeuralDynamics.CuttlefishFip</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+
+    <h3 id="classes">
+Classes
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.AddTask.html">AddTask</a></dt>
+      <dd><p>Represents a register that schedules a task by modelling following structure: U32 IOPin, float DutyCycle(0-1), float Frequency(Hz), U32 OutputMask (IOPins), U8 Events (0/1), U8 Mute (Kill the output but preserves timing), u32 delta1-4 (us).</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.AsyncDevice.html">AsyncDevice</a></dt>
+      <dd><p>Represents an asynchronous API to configure and interface with CuttlefishFip devices.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.ClearAllTasks.html">ClearAllTasks</a></dt>
+      <dd><p>Represents a register that clears all scheduled task if a value of 1 is written.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.ConfigureTask.html">ConfigureTask</a></dt>
+      <dd><p>Represents an operator that generates a sequence of Harp messages to
+configure a task.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateAddTaskPayload.html">CreateAddTaskPayload</a></dt>
+      <dd><p>Represents an operator that creates a message payload
+that schedules a task by modelling following structure: U32 IOPin, float DutyCycle(0-1), float Frequency(Hz), U32 OutputMask (IOPins), U8 Events (0/1), U8 Mute (Kill the output but preserves timing), u32 delta1-4 (us).</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateClearAllTasksPayload.html">CreateClearAllTasksPayload</a></dt>
+      <dd><p>Represents an operator that creates a message payload
+that clears all scheduled task if a value of 1 is written.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateMessage.html">CreateMessage</a></dt>
+      <dd><p>Represents an operator which creates standard message payloads for the
+CuttlefishFip device.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateRemoveTaskPayload.html">CreateRemoveTaskPayload</a></dt>
+      <dd><p>Represents an operator that creates a message payload
+that removes a task scheduled at index 0-7. If the task is not scheduled, an error will be returned.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateSetTaskStatePayload.html">CreateSetTaskStatePayload</a></dt>
+      <dd><p>Represents an operator that creates a message payload
+that controls the state of tasks in the device.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTask0SettingsPayload.html">CreateTask0SettingsPayload</a></dt>
+      <dd><p>Represents an operator that creates a message payload
+that represents the settings of Task0.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTask1SettingsPayload.html">CreateTask1SettingsPayload</a></dt>
+      <dd><p>Represents an operator that creates a message payload
+that represents the settings of Task1.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTask2SettingsPayload.html">CreateTask2SettingsPayload</a></dt>
+      <dd><p>Represents an operator that creates a message payload
+that represents the settings of Task2.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTask3SettingsPayload.html">CreateTask3SettingsPayload</a></dt>
+      <dd><p>Represents an operator that creates a message payload
+that represents the settings of Task3.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTask4SettingsPayload.html">CreateTask4SettingsPayload</a></dt>
+      <dd><p>Represents an operator that creates a message payload
+that represents the settings of Task4.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTask5SettingsPayload.html">CreateTask5SettingsPayload</a></dt>
+      <dd><p>Represents an operator that creates a message payload
+that represents the settings of Task5.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTask6SettingsPayload.html">CreateTask6SettingsPayload</a></dt>
+      <dd><p>Represents an operator that creates a message payload
+that represents the settings of Task6.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTask7SettingsPayload.html">CreateTask7SettingsPayload</a></dt>
+      <dd><p>Represents an operator that creates a message payload
+that represents the settings of Task7.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTaskCountPayload.html">CreateTaskCountPayload</a></dt>
+      <dd><p>Represents an operator that creates a message payload
+that returns the number of tasks currently scheduled. This register is read-only.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTaskRisingEdgeEventPayload.html">CreateTaskRisingEdgeEventPayload</a></dt>
+      <dd><p>Represents an operator that creates a message payload
+that an event raised when a rising edge of any of the ports is detected. The <code>Events</code> flag must be enabled in the corresponding task to trigger this event. The event is raised when the task is started. The event is cleared when the task is removed or stopped.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTimestampedAddTaskPayload.html">CreateTimestampedAddTaskPayload</a></dt>
+      <dd><p>Represents an operator that creates a timestamped message payload
+that schedules a task by modelling following structure: U32 IOPin, float DutyCycle(0-1), float Frequency(Hz), U32 OutputMask (IOPins), U8 Events (0/1), U8 Mute (Kill the output but preserves timing), u32 delta1-4 (us).</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTimestampedClearAllTasksPayload.html">CreateTimestampedClearAllTasksPayload</a></dt>
+      <dd><p>Represents an operator that creates a timestamped message payload
+that clears all scheduled task if a value of 1 is written.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTimestampedRemoveTaskPayload.html">CreateTimestampedRemoveTaskPayload</a></dt>
+      <dd><p>Represents an operator that creates a timestamped message payload
+that removes a task scheduled at index 0-7. If the task is not scheduled, an error will be returned.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTimestampedSetTaskStatePayload.html">CreateTimestampedSetTaskStatePayload</a></dt>
+      <dd><p>Represents an operator that creates a timestamped message payload
+that controls the state of tasks in the device.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask0SettingsPayload.html">CreateTimestampedTask0SettingsPayload</a></dt>
+      <dd><p>Represents an operator that creates a timestamped message payload
+that represents the settings of Task0.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask1SettingsPayload.html">CreateTimestampedTask1SettingsPayload</a></dt>
+      <dd><p>Represents an operator that creates a timestamped message payload
+that represents the settings of Task1.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask2SettingsPayload.html">CreateTimestampedTask2SettingsPayload</a></dt>
+      <dd><p>Represents an operator that creates a timestamped message payload
+that represents the settings of Task2.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask3SettingsPayload.html">CreateTimestampedTask3SettingsPayload</a></dt>
+      <dd><p>Represents an operator that creates a timestamped message payload
+that represents the settings of Task3.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask4SettingsPayload.html">CreateTimestampedTask4SettingsPayload</a></dt>
+      <dd><p>Represents an operator that creates a timestamped message payload
+that represents the settings of Task4.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask5SettingsPayload.html">CreateTimestampedTask5SettingsPayload</a></dt>
+      <dd><p>Represents an operator that creates a timestamped message payload
+that represents the settings of Task5.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask6SettingsPayload.html">CreateTimestampedTask6SettingsPayload</a></dt>
+      <dd><p>Represents an operator that creates a timestamped message payload
+that represents the settings of Task6.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTask7SettingsPayload.html">CreateTimestampedTask7SettingsPayload</a></dt>
+      <dd><p>Represents an operator that creates a timestamped message payload
+that represents the settings of Task7.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTaskCountPayload.html">CreateTimestampedTaskCountPayload</a></dt>
+      <dd><p>Represents an operator that creates a timestamped message payload
+that returns the number of tasks currently scheduled. This register is read-only.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.CreateTimestampedTaskRisingEdgeEventPayload.html">CreateTimestampedTaskRisingEdgeEventPayload</a></dt>
+      <dd><p>Represents an operator that creates a timestamped message payload
+that an event raised when a rising edge of any of the ports is detected. The <code>Events</code> flag must be enabled in the corresponding task to trigger this event. The event is raised when the task is started. The event is cleared when the task is removed or stopped.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.Device.html">Device</a></dt>
+      <dd><p>Represents an observable source of messages from the Harp device connected at the specified serial port.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.DeviceDataWriter.html">DeviceDataWriter</a></dt>
+      <dd><p>Represents an operator that writes the sequence of <a class="xref" href="AllenNeuralDynamics.CuttlefishFip.html">AllenNeuralDynamics.CuttlefishFip</a>&quot; messages
+to the standard Harp storage format.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.FilterRegister.html">FilterRegister</a></dt>
+      <dd><p>Represents an operator that filters register-specific messages
+reported by the <a class="xref" href="AllenNeuralDynamics.CuttlefishFip.html">AllenNeuralDynamics.CuttlefishFip</a> device.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.Format.html">Format</a></dt>
+      <dd><p>Represents an operator which formats a sequence of values as specific
+CuttlefishFip register messages.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.GetDeviceMetadata.html">GetDeviceMetadata</a></dt>
+      <dd><p>Represents an operator that returns the contents of the metadata file
+describing the <a class="xref" href="AllenNeuralDynamics.CuttlefishFip.html">AllenNeuralDynamics.CuttlefishFip</a> device registers.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.GroupByRegister.html">GroupByRegister</a></dt>
+      <dd><p>Represents an operator that groups the sequence of <a class="xref" href="AllenNeuralDynamics.CuttlefishFip.html">AllenNeuralDynamics.CuttlefishFip</a>&quot; messages by register type.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.HelperMethods.html">HelperMethods</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.Parse.html">Parse</a></dt>
+      <dd><p>Represents an operator which filters and selects specific messages
+reported by the CuttlefishFip device.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.RemoveTask.html">RemoveTask</a></dt>
+      <dd><p>Represents a register that removes a task scheduled at index 0-7. If the task is not scheduled, an error will be returned.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.SetTaskState.html">SetTaskState</a></dt>
+      <dd><p>Represents a register that controls the state of tasks in the device.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.Task0Settings.html">Task0Settings</a></dt>
+      <dd><p>Represents a register that represents the settings of Task0.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.Task1Settings.html">Task1Settings</a></dt>
+      <dd><p>Represents a register that represents the settings of Task1.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.Task2Settings.html">Task2Settings</a></dt>
+      <dd><p>Represents a register that represents the settings of Task2.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.Task3Settings.html">Task3Settings</a></dt>
+      <dd><p>Represents a register that represents the settings of Task3.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.Task4Settings.html">Task4Settings</a></dt>
+      <dd><p>Represents a register that represents the settings of Task4.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.Task5Settings.html">Task5Settings</a></dt>
+      <dd><p>Represents a register that represents the settings of Task5.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.Task6Settings.html">Task6Settings</a></dt>
+      <dd><p>Represents a register that represents the settings of Task6.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.Task7Settings.html">Task7Settings</a></dt>
+      <dd><p>Represents a register that represents the settings of Task7.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TaskCount.html">TaskCount</a></dt>
+      <dd><p>Represents a register that returns the number of tasks currently scheduled. This register is read-only.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TaskRisingEdgeEvent.html">TaskRisingEdgeEvent</a></dt>
+      <dd><p>Represents a register that an event raised when a rising edge of any of the ports is detected. The <code>Events</code> flag must be enabled in the corresponding task to trigger this event. The event is raised when the task is started. The event is cleared when the task is removed or stopped.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TimestampedAddTask.html">TimestampedAddTask</a></dt>
+      <dd><p>Provides methods for manipulating timestamped messages from the
+AddTask register.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TimestampedClearAllTasks.html">TimestampedClearAllTasks</a></dt>
+      <dd><p>Provides methods for manipulating timestamped messages from the
+ClearAllTasks register.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TimestampedRemoveTask.html">TimestampedRemoveTask</a></dt>
+      <dd><p>Provides methods for manipulating timestamped messages from the
+RemoveTask register.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TimestampedSetTaskState.html">TimestampedSetTaskState</a></dt>
+      <dd><p>Provides methods for manipulating timestamped messages from the
+SetTaskState register.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TimestampedTask0Settings.html">TimestampedTask0Settings</a></dt>
+      <dd><p>Provides methods for manipulating timestamped messages from the
+Task0Settings register.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TimestampedTask1Settings.html">TimestampedTask1Settings</a></dt>
+      <dd><p>Provides methods for manipulating timestamped messages from the
+Task1Settings register.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TimestampedTask2Settings.html">TimestampedTask2Settings</a></dt>
+      <dd><p>Provides methods for manipulating timestamped messages from the
+Task2Settings register.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TimestampedTask3Settings.html">TimestampedTask3Settings</a></dt>
+      <dd><p>Provides methods for manipulating timestamped messages from the
+Task3Settings register.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TimestampedTask4Settings.html">TimestampedTask4Settings</a></dt>
+      <dd><p>Provides methods for manipulating timestamped messages from the
+Task4Settings register.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TimestampedTask5Settings.html">TimestampedTask5Settings</a></dt>
+      <dd><p>Provides methods for manipulating timestamped messages from the
+Task5Settings register.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TimestampedTask6Settings.html">TimestampedTask6Settings</a></dt>
+      <dd><p>Provides methods for manipulating timestamped messages from the
+Task6Settings register.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TimestampedTask7Settings.html">TimestampedTask7Settings</a></dt>
+      <dd><p>Provides methods for manipulating timestamped messages from the
+Task7Settings register.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TimestampedTaskCount.html">TimestampedTaskCount</a></dt>
+      <dd><p>Provides methods for manipulating timestamped messages from the
+TaskCount register.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TimestampedTaskRisingEdgeEvent.html">TimestampedTaskRisingEdgeEvent</a></dt>
+      <dd><p>Provides methods for manipulating timestamped messages from the
+TaskRisingEdgeEvent register.</p>
+</dd>
+    </dl>
+    <h3 id="structs">
+Structs
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TaskPayload.html">TaskPayload</a></dt>
+      <dd></dd>
+    </dl>
+    <h3 id="enums">
+Enums
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.Port.html">Port</a></dt>
+      <dd><p>Available ports on the device. This enum is one-hot encoded. Only one value can be set at a time.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.Ports.html">Ports</a></dt>
+      <dd><p>Available ports on the device. This enum is a bit-mask. Multiple values can be set at the same time.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TaskIndex.html">TaskIndex</a></dt>
+      <dd><p>Task slot to be used for the task. 0-7</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="AllenNeuralDynamics.CuttlefishFip.TaskState.html">TaskState</a></dt>
+      <dd><p>The state of the ongoing task.</p>
+</dd>
+    </dl>
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

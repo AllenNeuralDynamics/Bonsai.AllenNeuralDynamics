@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>AIND Manipulator </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="AIND Manipulator ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/docs/articles/aind-manipulator.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="aind-manipulator">AIND Manipulator</h1>
+
+<h1 id="assembly-instructions">Assembly instructions</h1>
+<p>The manipulator is composed of two main components:</p>
+<ul>
+<li>The physical manipulator composed of multiple axis that makes up a configuration (e.g. a 4 axis manipulator)</li>
+<li>A controller board that interfaces with the manipulator and the computer</li>
+</ul>
+<h2 id="physical-manipulator">Physical manipulator</h2>
+<p>The physical manipulator is expected to be assembled as per the following figure. The color of the axis is indicative of the color of the cable that should be connected to the corresponding port on the controller board.</p>
+<p><img src="../images/aind_manipulator_3d.png" alt="Manipulator"></p>
+<table>
+<thead>
+<tr>
+<th>Motor</th>
+<th>Axis</th>
+<th>Cable Color</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>X (lateral)</td>
+<td>Blue</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Y1 (forward, &quot;port&quot;, motor's left mouse's right)</td>
+<td>Red</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Y2 (forward, &quot;starboard&quot;, motor's right mouse's left)</td>
+<td>Green</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Z (vertical)</td>
+<td>White/Silver</td>
+</tr>
+</tbody>
+</table>
+<p>Each motor should also be wired to its respective cable following the color code below:</p>
+<ul>
+<li>Green (B+)</li>
+<li>Green-White (B-)</li>
+<li>Red (A+)</li>
+<li>Red-White (A-)</li>
+</ul>
+<p>Finally, each end-of-travel switch follows the color code below:</p>
+<ul>
+<li>Blue (GND)</li>
+<li>White (Signal)</li>
+<li>Brown (+V)</li>
+</ul>
+<h2 id="controller-board">Controller board</h2>
+<h3 id="bonsai-interface">Bonsai Interface</h3>
+<p>To interface with the motors, the user can choose to use the Harp package for the <a href="https://github.com/harp-tech/device.stepperdriver">Harp.StepperDriver</a>. For simplicity, we maintain our own wrapper with core functionality and user-interface. The user can install it from the <a href="https://www.nuget.org/packages/AllenNeuralDynamics.AindManipulator/">Aind Nuget feed</a>.</p>
+<p>The interface with the manipulator is handled by a single operator: <code>AindManipulator</code>. This operator is responsible for the following:</p>
+<ul>
+<li>Setting initial settings of the manipulator</li>
+<li>Implementing <code>StopMotors</code>, <code>HomeMotors</code>, <code>MoveTo</code> and <code>MoveBy</code> operations.</li>
+<li>Implementing a front-end interface for the user to interact with the manipulator.</li>
+</ul>
+<h4 id="load-a-configuration">Load a configuration</h4>
+<p>The operator expects settings to be passed via a <code>AindManipulatorCalibrationInput</code> class. This class can defined using the respective schema in <a href="https://github.com/AllenNeuralDynamics/Aind.Behavior.Services"><code>Aind.Behavior.Services</code> repository</a>. An example on how to generate a configuration file <a href="https://github.com/AllenNeuralDynamics/Aind.Behavior.Services/blob/main/examples/aind_manipulator.py">can be found here</a>. The Json file can be passed to the operator using the following pattern:</p>
+<div class="workflow"><p><img src="../workflows/AindManipulatorFromJson.bonsai" alt="AindManipulatorFromJson"></p>
+</div>
+<p>Alternatively, an operator is provided for quickly defining the settings in the workflow directly. This can be done using the following pattern:</p>
+<div class="workflow"><p><img src="../workflows/AindManipulatorFromDefault.bonsai" alt="AindManipulatorFromDefault"></p>
+</div>
+<h4 id="front-end-interface">Front-end interface</h4>
+<p>The operator also provides a front-end interface for the user to interact with the manipulator. This can be accessed by double-clicking the <code>AindManipulator</code> while the workflow is running.</p>
+<h4 id="controlling-the-manipulator">Controlling the manipulator</h4>
+<p>The easiest way to control the manipulator without using the user-interface is to directly interact with the  <code>StopMotors</code>, <code>HomeMotors</code>, <code>MoveTo</code> and <code>MoveBy</code> subjects.</p>
+<p>If the user wants to control the manipulator using the Harp interface, <code>StepperMotorCommands</code> and <code>StepperMotorEvents</code> can be used to send and receive commands and events respectively.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/AllenNeuralDynamics/Bonsai.AllenNeuralDynamics/blob/main/docs/articles/aind-manipulator.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
