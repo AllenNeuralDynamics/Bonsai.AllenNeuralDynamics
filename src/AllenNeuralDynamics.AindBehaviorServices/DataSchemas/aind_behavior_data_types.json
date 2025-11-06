@@ -4,10 +4,10 @@
       "enum": [
         "string",
         "number",
-        "boolean",
         "object",
         "array",
-        "null"
+        "null",
+        "boolean"
       ],
       "title": "DataType",
       "type": "string"
@@ -125,7 +125,7 @@
           ],
           "title": "Data"
         },
-        "dataType": {
+        "data_type": {
           "$ref": "#/$defs/DataType",
           "default": "null",
           "description": "The data type of the event"
