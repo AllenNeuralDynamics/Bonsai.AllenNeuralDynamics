@@ -9,7 +9,7 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
 {
     #pragma warning disable // Disable all warnings
 
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.6.1.0 (Newtonsoft.Json v13.0.0.0)")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.7.1.0 (Newtonsoft.Json v13.0.0.0)")]
     [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))]
     public enum DataType
     {
@@ -20,21 +20,21 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
         [System.Runtime.Serialization.EnumMemberAttribute(Value="number")]
         Number = 1,
     
-        [System.Runtime.Serialization.EnumMemberAttribute(Value="boolean")]
-        Boolean = 2,
-    
         [System.Runtime.Serialization.EnumMemberAttribute(Value="object")]
-        Object = 3,
+        Object = 2,
     
         [System.Runtime.Serialization.EnumMemberAttribute(Value="array")]
-        Array = 4,
+        Array = 3,
     
         [System.Runtime.Serialization.EnumMemberAttribute(Value="null")]
-        Null = 5,
+        Null = 4,
+    
+        [System.Runtime.Serialization.EnumMemberAttribute(Value="boolean")]
+        Boolean = 5,
     }
 
 
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.6.1.0 (Newtonsoft.Json v13.0.0.0)")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.7.1.0 (Newtonsoft.Json v13.0.0.0)")]
     [Bonsai.WorkflowElementCategoryAttribute(Bonsai.ElementCategory.Source)]
     [Bonsai.CombinatorAttribute(MethodName="Generate")]
     public partial class RenderSynchState
@@ -147,7 +147,7 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     /// <summary>
     /// A software event is a generic event that can be used to track any event that occurs in the software.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.6.1.0 (Newtonsoft.Json v13.0.0.0)")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.7.1.0 (Newtonsoft.Json v13.0.0.0)")]
     [System.ComponentModel.DescriptionAttribute("A software event is a generic event that can be used to track any event that occu" +
         "rs in the software.")]
     [Bonsai.WorkflowElementCategoryAttribute(Bonsai.ElementCategory.Source)]
@@ -173,8 +173,8 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     
         public SoftwareEvent()
         {
-            _timestampSource = AllenNeuralDynamics.AindBehaviorServices.DataTypes.TimestampSource.Null;
-            _dataType = AllenNeuralDynamics.AindBehaviorServices.DataTypes.DataType.Null;
+            _timestampSource = TimestampSource.Null;
+            _dataType = DataType.Null;
         }
     
         protected SoftwareEvent(SoftwareEvent other)
@@ -227,7 +227,6 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
         /// <summary>
         /// The source of the timestamp
         /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
         [Newtonsoft.Json.JsonPropertyAttribute("timestamp_source")]
         [System.ComponentModel.DescriptionAttribute("The source of the timestamp")]
         public TimestampSource TimestampSource
@@ -299,8 +298,7 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
         /// <summary>
         /// The data type of the event
         /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        [Newtonsoft.Json.JsonPropertyAttribute("dataType")]
+        [Newtonsoft.Json.JsonPropertyAttribute("data_type")]
         [System.ComponentModel.DescriptionAttribute("The data type of the event")]
         public DataType DataType
         {
@@ -369,7 +367,7 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     }
 
 
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.6.1.0 (Newtonsoft.Json v13.0.0.0)")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.7.1.0 (Newtonsoft.Json v13.0.0.0)")]
     [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))]
     public enum TimestampSource
     {
@@ -388,7 +386,7 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     /// <summary>
     /// Serializes a sequence of data model objects into JSON strings.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.6.1.0 (Newtonsoft.Json v13.0.0.0)")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.7.1.0 (Newtonsoft.Json v13.0.0.0)")]
     [System.ComponentModel.DescriptionAttribute("Serializes a sequence of data model objects into JSON strings.")]
     [Bonsai.WorkflowElementCategoryAttribute(Bonsai.ElementCategory.Transform)]
     [Bonsai.CombinatorAttribute()]
@@ -418,7 +416,7 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     /// <summary>
     /// Deserializes a sequence of JSON strings into data model objects.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.6.1.0 (Newtonsoft.Json v13.0.0.0)")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.7.1.0 (Newtonsoft.Json v13.0.0.0)")]
     [System.ComponentModel.DescriptionAttribute("Deserializes a sequence of JSON strings into data model objects.")]
     [System.ComponentModel.DefaultPropertyAttribute("Type")]
     [Bonsai.WorkflowElementCategoryAttribute(Bonsai.ElementCategory.Transform)]
