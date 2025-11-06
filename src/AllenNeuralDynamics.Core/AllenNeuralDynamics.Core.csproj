@@ -9,7 +9,7 @@
     <PackageTags>Bonsai Rx Core AllenNeuralDynamics</PackageTags>
     <TargetFramework>net472</TargetFramework>
     <Features>strict</Features>
-    <Version>0.4.1</Version>
+    <Version>0.5.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -28,7 +28,7 @@
     <PackageReference Include="BonVision" Version="0.11.0" />
     <PackageReference Include="MathNet.Numerics" Version="4.15.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="AllenNeuralDynamics.AindBehaviorServices" Version="0.8.0" />
+    <PackageReference Include="AllenNeuralDynamics.AindBehaviorServices" Version="0.12.5" />
   </ItemGroup>
 
   <ItemGroup>
