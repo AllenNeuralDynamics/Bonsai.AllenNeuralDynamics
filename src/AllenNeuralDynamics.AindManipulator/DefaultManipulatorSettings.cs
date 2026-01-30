@@ -8,7 +8,7 @@ using System.Reactive.Linq;
 namespace AllenNeuralDynamics.AindManipulator
 {
     
-    public class DefaultManipulatorSettings : Source<AindManipulatorCalibrationInput>
+    public class DefaultManipulatorSettings : Source<AindManipulatorCalibration>
     {
 
         [TypeConverter(typeof(NumericRecordConverter))]
@@ -38,9 +38,9 @@ namespace AllenNeuralDynamics.AindManipulator
         public double MinLimit { get; set; } = -0.01;
 
 
-        public override IObservable<AindManipulatorCalibrationInput> Generate()
+        public override IObservable<AindManipulatorCalibration> Generate()
         {
-            return Observable.Return(new AindManipulatorCalibrationInput()
+            return Observable.Return(new AindManipulatorCalibration()
             {
                 InitialPosition = InitialPosition.ToManipulatorPosition(),
                 FullStepToMm = FullStepToMm.ToManipulatorPosition(),

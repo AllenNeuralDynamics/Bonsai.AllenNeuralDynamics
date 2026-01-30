@@ -134,7 +134,7 @@
       <Expression xsi:type="MulticastSubject">
         <Name>StepperDriverCommands</Name>
       </Expression>
-      <Expression xsi:type="WorkflowInput" TypeArguments="p2:AindManipulatorCalibrationInput">
+      <Expression xsi:type="WorkflowInput" TypeArguments="p2:AindManipulatorCalibration">
         <Name>Source1</Name>
       </Expression>
       <Expression xsi:type="rx:AsyncSubject">

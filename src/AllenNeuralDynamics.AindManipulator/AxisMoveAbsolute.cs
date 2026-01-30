@@ -69,13 +69,13 @@ namespace AllenNeuralDynamics.AindManipulator
         {
             switch (axis)
             {
-                case AindManipulator.Axis.X:
+                case AllenNeuralDynamics.AindManipulator.Axis.X:
                     return Motor0MoveAbsolute.FromPayload(messageType, position);
-                case AindManipulator.Axis.Y1:
+                case AllenNeuralDynamics.AindManipulator.Axis.Y1:
                     return Motor1MoveAbsolute.FromPayload(messageType, position);
-                case AindManipulator.Axis.Y2:
+                case AllenNeuralDynamics.AindManipulator.Axis.Y2:
                     return Motor2MoveAbsolute.FromPayload(messageType, position);
-                case AindManipulator.Axis.Z:
+                case AllenNeuralDynamics.AindManipulator.Axis.Z:
                     return Motor3MoveAbsolute.FromPayload(messageType, position);
                 default:
                     throw new InvalidOperationException("Invalid axis selection.");
