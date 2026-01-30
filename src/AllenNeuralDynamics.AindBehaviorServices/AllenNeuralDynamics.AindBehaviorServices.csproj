@@ -9,7 +9,7 @@
     <PackageTags>Bonsai Rx Services AllenNeuralDynamics</PackageTags>
     <TargetFramework>net472</TargetFramework>
     <Features>strict</Features>
-    <Version>0.12.5</Version>
+    <Version>0.13.0</Version>
     <PackageType>Dependency;BonsaiLibrary</PackageType>
   </PropertyGroup>
 
@@ -27,6 +27,6 @@
   </ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-      <Exec Command="&#xD;&#xA;          curl --url https://raw.githubusercontent.com/AllenNeuralDynamics/Aind.Behavior.Services/refs/tags/v$(Version)/src/schemas/data_types.json -o $(ProjectDir)DataSchemas/aind_behavior_data_types.json&#xD;&#xA;          dotnet tool restore&#xD;&#xA;          dotnet tool run bonsai.sgen $(ProjectDir)DataSchemas/aind_behavior_data_types.json --namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes -n DataTypes.Generated.cs --serializer json" />  </Target>
+      <Exec Command="&#xD;&#xA;          curl --url https://raw.githubusercontent.com/AllenNeuralDynamics/Aind.Behavior.Services/refs/tags/v$(Version)/schema/data_types.json -o $(ProjectDir)DataSchemas/aind_behavior_data_types.json&#xD;&#xA;          dotnet tool restore&#xD;&#xA;          dotnet tool run bonsai.sgen $(ProjectDir)DataSchemas/aind_behavior_data_types.json --namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes -n DataTypes.Generated.cs --serializer json" />  </Target>
 
 </Project>
