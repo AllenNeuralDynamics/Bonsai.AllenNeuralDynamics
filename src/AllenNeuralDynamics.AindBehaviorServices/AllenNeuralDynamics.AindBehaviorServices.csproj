@@ -9,7 +9,7 @@
     <PackageTags>Bonsai Rx Services AllenNeuralDynamics</PackageTags>
     <TargetFramework>net472</TargetFramework>
     <Features>strict</Features>
-    <Version>0.13.0</Version>
+    <Version>0.13.4</Version>
     <PackageType>Dependency;BonsaiLibrary</PackageType>
   </PropertyGroup>
 
