@@ -10,7 +10,24 @@
         "boolean"
       ],
       "title": "DataType",
-      "type": "string"
+      "type": "string",
+      "x-sgen-typename": "AllenNeuralDynamics.AindBehaviorServices.DataTypes.DataType"
+    },
+    "EndExperimentPayload": {
+      "properties": {
+        "timestamp": {
+          "description": "The end time of the session",
+          "format": "date-time",
+          "title": "Timestamp",
+          "type": "string"
+        }
+      },
+      "required": [
+        "timestamp"
+      ],
+      "title": "EndExperimentPayload",
+      "type": "object",
+      "x-sgen-typename": "AllenNeuralDynamics.AindBehaviorServices.DataTypes.EndExperimentPayload"
     },
     "RenderSynchState": {
       "properties": {
@@ -59,7 +76,8 @@
         }
       },
       "title": "RenderSynchState",
-      "type": "object"
+      "type": "object",
+      "x-sgen-typename": "AllenNeuralDynamics.AindBehaviorServices.DataTypes.RenderSynchState"
     },
     "SoftwareEvent": {
       "description": "A software event is a generic event that can be used to track any event that occurs in the software.",
@@ -148,7 +166,24 @@
         "name"
       ],
       "title": "SoftwareEvent",
-      "type": "object"
+      "type": "object",
+      "x-sgen-typename": "AllenNeuralDynamics.AindBehaviorServices.DataTypes.SoftwareEvent"
+    },
+    "StartExperimentPayload": {
+      "properties": {
+        "timestamp": {
+          "description": "The start time of the session",
+          "format": "date-time",
+          "title": "Timestamp",
+          "type": "string"
+        }
+      },
+      "required": [
+        "timestamp"
+      ],
+      "title": "StartExperimentPayload",
+      "type": "object",
+      "x-sgen-typename": "AllenNeuralDynamics.AindBehaviorServices.DataTypes.StartExperimentPayload"
     },
     "TimestampSource": {
       "enum": [
@@ -157,7 +192,8 @@
         "render"
       ],
       "title": "TimestampSource",
-      "type": "string"
+      "type": "string",
+      "x-sgen-typename": "AllenNeuralDynamics.AindBehaviorServices.DataTypes.TimestampSource"
     }
   },
   "x-abstract": "True"

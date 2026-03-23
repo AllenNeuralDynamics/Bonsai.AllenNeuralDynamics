@@ -9,7 +9,7 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
 {
     #pragma warning disable // Disable all warnings
 
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.7.1.0 (Newtonsoft.Json v13.0.0.0)")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.8.0.0 (Newtonsoft.Json v13.0.0.0)")]
     [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))]
     public enum DataType
     {
@@ -34,7 +34,89 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     }
 
 
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.7.1.0 (Newtonsoft.Json v13.0.0.0)")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.8.0.0 (Newtonsoft.Json v13.0.0.0)")]
+    [Bonsai.WorkflowElementCategoryAttribute(Bonsai.ElementCategory.Source)]
+    [Bonsai.CombinatorAttribute(MethodName="Generate")]
+    public partial class EndExperimentPayload
+    {
+    
+        private System.DateTimeOffset _timestamp;
+    
+        public EndExperimentPayload()
+        {
+        }
+    
+        protected EndExperimentPayload(EndExperimentPayload other)
+        {
+            _timestamp = other._timestamp;
+        }
+    
+        /// <summary>
+        /// The end time of the session
+        /// </summary>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [Newtonsoft.Json.JsonPropertyAttribute("timestamp", Required=Newtonsoft.Json.Required.Always)]
+        [System.ComponentModel.DescriptionAttribute("The end time of the session")]
+        public System.DateTimeOffset Timestamp
+        {
+            get
+            {
+                return _timestamp;
+            }
+            set
+            {
+                _timestamp = value;
+            }
+        }
+    
+        [Newtonsoft.Json.JsonIgnoreAttribute()]
+        [System.ComponentModel.BrowsableAttribute(false)]
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+        [System.Xml.Serialization.XmlElementAttribute("Timestamp")]
+        public string TimestampXml
+        {
+            get
+            {
+                return _timestamp.ToString("o");
+            }
+            set
+            {
+                _timestamp = System.DateTimeOffset.Parse(value);
+            }
+        }
+    
+        public System.IObservable<EndExperimentPayload> Generate()
+        {
+            return System.Reactive.Linq.Observable.Defer(() => System.Reactive.Linq.Observable.Return(new EndExperimentPayload(this)));
+        }
+    
+        public System.IObservable<EndExperimentPayload> Generate<TSource>(System.IObservable<TSource> source)
+        {
+            return System.Reactive.Linq.Observable.Select(source, _ => new EndExperimentPayload(this));
+        }
+    
+        protected virtual bool PrintMembers(System.Text.StringBuilder stringBuilder)
+        {
+            stringBuilder.Append("Timestamp = " + _timestamp);
+            return true;
+        }
+    
+        public override string ToString()
+        {
+            System.Text.StringBuilder stringBuilder = new System.Text.StringBuilder();
+            stringBuilder.Append(GetType().Name);
+            stringBuilder.Append(" { ");
+            if (PrintMembers(stringBuilder))
+            {
+                stringBuilder.Append(" ");
+            }
+            stringBuilder.Append("}");
+            return stringBuilder.ToString();
+        }
+    }
+
+
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.8.0.0 (Newtonsoft.Json v13.0.0.0)")]
     [Bonsai.WorkflowElementCategoryAttribute(Bonsai.ElementCategory.Source)]
     [Bonsai.CombinatorAttribute(MethodName="Generate")]
     public partial class RenderSynchState
@@ -60,7 +142,6 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
         /// <summary>
         /// The synchronization quad value
         /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
         [Newtonsoft.Json.JsonPropertyAttribute("sync_quad_value")]
         [System.ComponentModel.DescriptionAttribute("The synchronization quad value")]
         public double? SyncQuadValue
@@ -78,7 +159,6 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
         /// <summary>
         /// The frame index of the event
         /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
         [Newtonsoft.Json.JsonPropertyAttribute("frame_index")]
         [System.ComponentModel.DescriptionAttribute("The frame index of the event")]
         public int? FrameIndex
@@ -96,7 +176,6 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
         /// <summary>
         /// The timestamp of the frame
         /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
         [Newtonsoft.Json.JsonPropertyAttribute("frame_timestamp")]
         [System.ComponentModel.DescriptionAttribute("The timestamp of the frame")]
         public double? FrameTimestamp
@@ -147,7 +226,7 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     /// <summary>
     /// A software event is a generic event that can be used to track any event that occurs in the software.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.7.1.0 (Newtonsoft.Json v13.0.0.0)")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.8.0.0 (Newtonsoft.Json v13.0.0.0)")]
     [System.ComponentModel.DescriptionAttribute("A software event is a generic event that can be used to track any event that occu" +
         "rs in the software.")]
     [Bonsai.WorkflowElementCategoryAttribute(Bonsai.ElementCategory.Source)]
@@ -209,7 +288,6 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
         /// <summary>
         /// The timestamp of the event
         /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
         [Newtonsoft.Json.JsonPropertyAttribute("timestamp")]
         [System.ComponentModel.DescriptionAttribute("The timestamp of the event")]
         public double? Timestamp
@@ -244,7 +322,6 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
         /// <summary>
         /// The frame index of the event
         /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
         [Newtonsoft.Json.JsonPropertyAttribute("frame_index")]
         [System.ComponentModel.DescriptionAttribute("The frame index of the event")]
         public int? FrameIndex
@@ -262,7 +339,6 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
         /// <summary>
         /// The timestamp of the frame
         /// </summary>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
         [Newtonsoft.Json.JsonPropertyAttribute("frame_timestamp")]
         [System.ComponentModel.DescriptionAttribute("The timestamp of the frame")]
         public double? FrameTimestamp
@@ -367,7 +443,89 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     }
 
 
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.7.1.0 (Newtonsoft.Json v13.0.0.0)")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.8.0.0 (Newtonsoft.Json v13.0.0.0)")]
+    [Bonsai.WorkflowElementCategoryAttribute(Bonsai.ElementCategory.Source)]
+    [Bonsai.CombinatorAttribute(MethodName="Generate")]
+    public partial class StartExperimentPayload
+    {
+    
+        private System.DateTimeOffset _timestamp;
+    
+        public StartExperimentPayload()
+        {
+        }
+    
+        protected StartExperimentPayload(StartExperimentPayload other)
+        {
+            _timestamp = other._timestamp;
+        }
+    
+        /// <summary>
+        /// The start time of the session
+        /// </summary>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [Newtonsoft.Json.JsonPropertyAttribute("timestamp", Required=Newtonsoft.Json.Required.Always)]
+        [System.ComponentModel.DescriptionAttribute("The start time of the session")]
+        public System.DateTimeOffset Timestamp
+        {
+            get
+            {
+                return _timestamp;
+            }
+            set
+            {
+                _timestamp = value;
+            }
+        }
+    
+        [Newtonsoft.Json.JsonIgnoreAttribute()]
+        [System.ComponentModel.BrowsableAttribute(false)]
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+        [System.Xml.Serialization.XmlElementAttribute("Timestamp")]
+        public string TimestampXml
+        {
+            get
+            {
+                return _timestamp.ToString("o");
+            }
+            set
+            {
+                _timestamp = System.DateTimeOffset.Parse(value);
+            }
+        }
+    
+        public System.IObservable<StartExperimentPayload> Generate()
+        {
+            return System.Reactive.Linq.Observable.Defer(() => System.Reactive.Linq.Observable.Return(new StartExperimentPayload(this)));
+        }
+    
+        public System.IObservable<StartExperimentPayload> Generate<TSource>(System.IObservable<TSource> source)
+        {
+            return System.Reactive.Linq.Observable.Select(source, _ => new StartExperimentPayload(this));
+        }
+    
+        protected virtual bool PrintMembers(System.Text.StringBuilder stringBuilder)
+        {
+            stringBuilder.Append("Timestamp = " + _timestamp);
+            return true;
+        }
+    
+        public override string ToString()
+        {
+            System.Text.StringBuilder stringBuilder = new System.Text.StringBuilder();
+            stringBuilder.Append(GetType().Name);
+            stringBuilder.Append(" { ");
+            if (PrintMembers(stringBuilder))
+            {
+                stringBuilder.Append(" ");
+            }
+            stringBuilder.Append("}");
+            return stringBuilder.ToString();
+        }
+    }
+
+
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.8.0.0 (Newtonsoft.Json v13.0.0.0)")]
     [Newtonsoft.Json.JsonConverter(typeof(Newtonsoft.Json.Converters.StringEnumConverter))]
     public enum TimestampSource
     {
@@ -386,7 +544,7 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
     /// <summary>
     /// Serializes a sequence of data model objects into JSON strings.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.7.1.0 (Newtonsoft.Json v13.0.0.0)")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.8.0.0 (Newtonsoft.Json v13.0.0.0)")]
     [System.ComponentModel.DescriptionAttribute("Serializes a sequence of data model objects into JSON strings.")]
     [Bonsai.WorkflowElementCategoryAttribute(Bonsai.ElementCategory.Transform)]
     [Bonsai.CombinatorAttribute()]
@@ -401,6 +559,11 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
             return System.Reactive.Linq.Observable.Select(source, value => Newtonsoft.Json.JsonConvert.SerializeObject(value, formatting));
         }
 
+        public System.IObservable<string> Process(System.IObservable<EndExperimentPayload> source)
+        {
+            return Process<EndExperimentPayload>(source);
+        }
+
         public System.IObservable<string> Process(System.IObservable<RenderSynchState> source)
         {
             return Process<RenderSynchState>(source);
@@ -410,24 +573,31 @@ namespace AllenNeuralDynamics.AindBehaviorServices.DataTypes
         {
             return Process<SoftwareEvent>(source);
         }
+
+        public System.IObservable<string> Process(System.IObservable<StartExperimentPayload> source)
+        {
+            return Process<StartExperimentPayload>(source);
+        }
     }
 
 
     /// <summary>
     /// Deserializes a sequence of JSON strings into data model objects.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.7.1.0 (Newtonsoft.Json v13.0.0.0)")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Bonsai.Sgen", "0.8.0.0 (Newtonsoft.Json v13.0.0.0)")]
     [System.ComponentModel.DescriptionAttribute("Deserializes a sequence of JSON strings into data model objects.")]
     [System.ComponentModel.DefaultPropertyAttribute("Type")]
     [Bonsai.WorkflowElementCategoryAttribute(Bonsai.ElementCategory.Transform)]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Bonsai.Expressions.TypeMapping<EndExperimentPayload>))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Bonsai.Expressions.TypeMapping<RenderSynchState>))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(Bonsai.Expressions.TypeMapping<SoftwareEvent>))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Bonsai.Expressions.TypeMapping<StartExperimentPayload>))]
     public partial class DeserializeFromJson : Bonsai.Expressions.SingleArgumentExpressionBuilder
     {
     
         public DeserializeFromJson()
         {
-            Type = new Bonsai.Expressions.TypeMapping<RenderSynchState>();
+            Type = new Bonsai.Expressions.TypeMapping<EndExperimentPayload>();
         }
 
         public Bonsai.Expressions.TypeMapping Type { get; set; }
