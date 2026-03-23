@@ -11,11 +11,11 @@ namespace AllenNeuralDynamics.AindManipulator
     public class DefaultManipulatorSettings : Source<AindManipulatorCalibration>
     {
 
-        [TypeConverter(typeof(NumericRecordConverter))]
-        public AindManipulatorPosition InitialPosition { get; set; } = new AindManipulatorPosition() { X = 0, Y1 = 0, Y2 = 0, Z = 0 };
+        [TypeConverter(typeof(ExpandableObjectConverter))]
+        public ManipulatorPosition InitialPosition { get; set; } = new ManipulatorPosition() { X = 0, Y1 = 0, Y2 = 0, Z = 0 };
 
-        [TypeConverter(typeof(NumericRecordConverter))]
-        public AindManipulatorPosition FullStepToMm { get; set; } = new AindManipulatorPosition() { X = 0.01, Y1 = 0.01, Y2 = 0.01, Z = 0.01};
+        [TypeConverter(typeof(ExpandableObjectConverter))]
+        public ManipulatorPosition FullStepToMm { get; set; } = new ManipulatorPosition() { X = 0.01, Y1 = 0.01, Y2 = 0.01, Z = 0.01};
 
         [TypeConverter(typeof(UnidimensionalArrayConverter))]
         public Axis[] HomingOrder { get; set; } = new Axis[] {Axis.Y1, Axis.Y2, Axis.X, Axis.Z};
@@ -42,8 +42,8 @@ namespace AllenNeuralDynamics.AindManipulator
         {
             return Observable.Return(new AindManipulatorCalibration()
             {
-                InitialPosition = InitialPosition.ToManipulatorPosition(),
-                FullStepToMm = FullStepToMm.ToManipulatorPosition(),
+                InitialPosition = InitialPosition,
+                FullStepToMm = FullStepToMm,
                 HomingOrder = HomingOrder.ToList(),
                 AxisConfiguration = EnabledAxis.Select(x => DefaultAxisConfiguration(x)).ToList()
             });

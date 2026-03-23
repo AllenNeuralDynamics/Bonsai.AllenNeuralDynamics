@@ -48,11 +48,6 @@ namespace AllenNeuralDynamics.AindManipulator
             });
         }
 
-        public IObservable<HarpMessage> Process(IObservable<AindManipulatorPosition> source)
-        {
-            return Process(source.Select(value => value.ToManipulatorPosition()));
-        }
-
         public IObservable<HarpMessage> Process(IObservable<int> source)
         {
             return source.Select(value =>
