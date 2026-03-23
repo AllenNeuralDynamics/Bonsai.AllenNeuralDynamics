@@ -92,7 +92,8 @@
         }
       },
       "title": "AindManipulatorCalibration",
-      "type": "object"
+      "type": "object",
+      "x-sgen-typename": "AllenNeuralDynamics.AindManipulator.AindManipulatorCalibration"
     },
     "Axis": {
       "description": "Motor axis available",
@@ -111,7 +112,8 @@
         "Y1",
         "Y2",
         "Z"
-      ]
+      ],
+      "x-sgen-typename": "AllenNeuralDynamics.AindManipulator.Axis"
     },
     "AxisConfiguration": {
       "description": "Axis configuration",
@@ -168,7 +170,8 @@
         "axis"
       ],
       "title": "AxisConfiguration",
-      "type": "object"
+      "type": "object",
+      "x-sgen-typename": "AllenNeuralDynamics.AindManipulator.AxisConfiguration"
     },
     "ManipulatorPosition": {
       "description": "Represents a position in the manipulator coordinate system",
@@ -197,7 +200,8 @@
         "z"
       ],
       "title": "ManipulatorPosition",
-      "type": "object"
+      "type": "object",
+      "x-sgen-typename": "AllenNeuralDynamics.AindManipulator.ManipulatorPosition"
     },
     "MicrostepResolution": {
       "description": "Microstep resolution available",
@@ -214,7 +218,8 @@
         "Microstep16",
         "Microstep32",
         "Microstep64"
-      ]
+      ],
+      "x-sgen-typename": "AllenNeuralDynamics.AindManipulator.MicrostepResolution"
     },
     "MotorOperationMode": {
       "description": "Motor operation mode",
@@ -227,7 +232,8 @@
       "x-enumNames": [
         "Quiet",
         "Dynamic"
-      ]
+      ],
+      "x-sgen-typename": "AllenNeuralDynamics.AindManipulator.MotorOperationMode"
     }
   },
   "description": "AindManipulator device definition",
@@ -334,5 +340,6 @@
     "port_name"
   ],
   "title": "AindManipulator",
-  "type": "object"
+  "type": "object",
+  "x-sgen-typename": "AllenNeuralDynamics.AindManipulator.AindManipulator"
 }
