@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Title>AllenNeuralDynamics.AindBehaviorServices.MessageProtocol</Title>
+    <Description>A bonsai package automatically generated from the message protocol definition in Aind.Behavior.Services repository. The package version is locked to the python package version.</Description>
+    <GeneratePackageOnBuild Condition="'$(Configuration)'=='Release'">true</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Bonsai Rx Services AllenNeuralDynamics</PackageTags>
+    <TargetFramework>net472</TargetFramework>
+    <Features>strict</Features>
+    <Version>0.13.7</Version>
+    <PackageType>Dependency;BonsaiLibrary</PackageType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bonsai.Core" Version="2.8.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="README.md" PackagePath="/" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataSchemas\" />
+  </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+      <Exec Command="&#xD;&#xA;          curl --url https://raw.githubusercontent.com/AllenNeuralDynamics/Aind.Behavior.Services/refs/tags/v$(Version)/schema/message_protocol.json -o $(ProjectDir)DataSchemas/aind_behavior_message_protocol.json&#xD;&#xA;          dotnet tool restore&#xD;&#xA;          dotnet tool run bonsai.sgen $(ProjectDir)DataSchemas/aind_behavior_message_protocol.json --namespace AllenNeuralDynamics.AindBehaviorServices.MessageProtocol -n MessageProtocol.Generated.cs --serializer json" />  </Target>
+
+</Project>
