@@ -173,7 +173,7 @@
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="p2:MoveAbsoluteSingleAxis">
-          <p2:Axis>Y1</p2:Axis>
+          <p2:Axis>None</p2:Axis>
         </Combinator>
       </Expression>
       <Expression xsi:type="MulticastSubject">

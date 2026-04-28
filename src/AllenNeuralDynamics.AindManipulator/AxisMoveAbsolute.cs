@@ -13,7 +13,7 @@ namespace AllenNeuralDynamics.AindManipulator
     [WorkflowElementCategory(ElementCategory.Combinator)]
     public class MoveAbsoluteSingleAxis
     {
-        public Axis? Axis { get; set; }
+        public Axis? Axis { get; set; } = null;
 
         private MessageType messageType = MessageType.Write;
 
@@ -43,8 +43,9 @@ namespace AllenNeuralDynamics.AindManipulator
                 }
                 if (!axis.HasValue)
                 {
+                    throw new InvalidOperationException("No axis selected. One axis must be non-zero.");
                 }
-                return BuildMessage(axis.Value, messageType, (int)targetPosition[(int)axis]);
+                return BuildMessage(axis.Value, messageType, (int)value[axis.Value]);
             });
         }
 
