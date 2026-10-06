@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WorkflowBuilder Version="2.8.2"
+<WorkflowBuilder Version="2.9.0"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:io="clr-namespace:Bonsai.IO;assembly=Bonsai.System"
                  xmlns:p1="clr-namespace:AllenNeuralDynamics.AindManipulator;assembly=AllenNeuralDynamics.AindManipulator"
@@ -11,13 +11,10 @@
         <Combinator xsi:type="io:ReadAllText" />
       </Expression>
       <Expression xsi:type="p1:DeserializeFromJson">
-        <p1:Type xsi:type="TypeMapping" TypeArguments="p1:CalibrationRig" />
+        <p1:Type xsi:type="TypeMapping" TypeArguments="p1:AindManipulator" />
       </Expression>
       <Expression xsi:type="MemberSelector">
-        <Selector>Manipulator</Selector>
-      </Expression>
-      <Expression xsi:type="MemberSelector">
-        <Selector>Calibration.Input</Selector>
+        <Selector>Calibration</Selector>
       </Expression>
       <Expression xsi:type="rx:AsyncSubject">
         <Name>ManipulatorSettings</Name>
@@ -25,7 +22,7 @@
       <Expression xsi:type="SubscribeSubject">
         <Name>ManipulatorSettings</Name>
       </Expression>
-      <Expression xsi:type="IncludeWorkflow" Path="AllenNeuralDynamics.AindManipulator:AindManipulator.bonsai">
+      <Expression xsi:type="IncludeWorkflow" Path="AllenNeuralDynamics.AindManipulator:CreateAindManipulator.bonsai">
         <OperationMode>Active</OperationMode>
         <OperationLed>On</OperationLed>
         <DumpRegisters>false</DumpRegisters>
@@ -34,13 +31,13 @@
         <IgnoreErrors>false</IgnoreErrors>
         <PortName>COMx</PortName>
       </Expression>
+      <Expression xsi:type="IncludeWorkflow" Path="AllenNeuralDynamics.AindManipulator:AindManipulatorGui.bonsai" />
     </Nodes>
     <Edges>
       <Edge From="0" To="1" Label="Source1" />
       <Edge From="1" To="2" Label="Source1" />
       <Edge From="2" To="3" Label="Source1" />
-      <Edge From="3" To="4" Label="Source1" />
-      <Edge From="5" To="6" Label="Source1" />
+      <Edge From="4" To="5" Label="Source1" />
     </Edges>
   </Workflow>
 </WorkflowBuilder>

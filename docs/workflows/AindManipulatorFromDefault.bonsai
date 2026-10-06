@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WorkflowBuilder Version="2.8.2"
+<WorkflowBuilder Version="2.9.0"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:p1="clr-namespace:AllenNeuralDynamics.AindManipulator;assembly=AllenNeuralDynamics.AindManipulator"
                  xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
@@ -14,12 +14,12 @@
             <p1:Y2>0</p1:Y2>
             <p1:Z>0</p1:Z>
           </p1:InitialPosition>
-          <p1:StepToMm>
-            <p1:X>0</p1:X>
-            <p1:Y1>0</p1:Y1>
-            <p1:Y2>0</p1:Y2>
-            <p1:Z>0</p1:Z>
-          </p1:StepToMm>
+          <p1:FullStepToMm>
+            <p1:X>0.01</p1:X>
+            <p1:Y1>0.01</p1:Y1>
+            <p1:Y2>0.01</p1:Y2>
+            <p1:Z>0.01</p1:Z>
+          </p1:FullStepToMm>
           <p1:HomingOrder>
             <p1:Axis>Y1</p1:Axis>
             <p1:Axis>Y2</p1:Axis>
@@ -37,8 +37,8 @@
           <p1:MicrostepResolution>Microstep8</p1:MicrostepResolution>
           <p1:MaximumStepInterval>2000</p1:MaximumStepInterval>
           <p1:MotorOperationMode>QuietMode</p1:MotorOperationMode>
-          <p1:MaxLimit>24000</p1:MaxLimit>
-          <p1:MinLimit>100</p1:MinLimit>
+          <p1:MaxLimit>30</p1:MaxLimit>
+          <p1:MinLimit>-0.01</p1:MinLimit>
         </Combinator>
       </Expression>
       <Expression xsi:type="rx:AsyncSubject">
@@ -47,7 +47,7 @@
       <Expression xsi:type="SubscribeSubject">
         <Name>ManipulatorSettings</Name>
       </Expression>
-      <Expression xsi:type="IncludeWorkflow" Path="AllenNeuralDynamics.AindManipulator:AindManipulator.bonsai">
+      <Expression xsi:type="IncludeWorkflow" Path="AllenNeuralDynamics.AindManipulator:CreateAindManipulator.bonsai">
         <OperationMode>Active</OperationMode>
         <OperationLed>On</OperationLed>
         <DumpRegisters>false</DumpRegisters>
@@ -56,6 +56,7 @@
         <IgnoreErrors>false</IgnoreErrors>
         <PortName>COMx</PortName>
       </Expression>
+      <Expression xsi:type="IncludeWorkflow" Path="AllenNeuralDynamics.AindManipulator:AindManipulatorGui.bonsai" />
     </Nodes>
     <Edges>
       <Edge From="0" To="1" Label="Source1" />
